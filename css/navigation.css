@@ -1,36 +1,54 @@
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: fixed;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: transparent;
+  align-items: center;
+  background: #dddddd80;
+  height: 100px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-nav img {
-  width: 180px;
-  height: 60px;
-  float: left;
-  margin-left: 5px;
-}
-
-nav ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
+nav .inner {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .inner .logo link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .inner img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+nav .inner ul {
+  display: none;
+}
+
+nav .inner ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   list-style: none;
 }
-/*# sourceMappingURL=navigation.css.map */
+
+nav .inner ul li a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+nav .mobile-button {
+  border: none;
+  display: block;
+  cursor: pointer;
+}
+
+nav .mobile-button img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

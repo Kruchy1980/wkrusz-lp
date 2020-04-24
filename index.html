@@ -1,22 +1,83 @@
-// Nawigacja nav { display: flex; position: fixed; align-items: center; background: transparent; width: 100%; justify-content: space-between; img { width: 180px; height: 60px; float: left; margin-left: 5px; } ul { li { display: flex; flex-direction: column;
-align-items: center; list-style: none; } } }
-<li class="nav-list__item">Współpraca</li>
-<li class="nav-list__item">Kontakt</li>
-<li class="nav-list__item">Przykład??</li>
-</ul>
-</nav>
-<!-- O firmie -->
-<section class="about"></section>
-<!-- Oferta -->
-<section class="offer"></section>
-<!-- Doświadczenie -->
-<section class="experience"></section>
-<!-- Cooperation -->
-<section class="coopertion"></section>
-<!-- Kontakt -->
-<section class="contact"></section>
-<!-- Footer -->
-<footer class="bottom"></footer>
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="wk, kruszynski, kruszyński, wojciech,consulting, doradztwo biznesowe, wycena, benchmark, analiza finansowa, test utraty wartości, test prywatnego inwestora, biznes plan, opłacalność inwestycji">
+    <meta name="description" content="Jest to wizytówka Wojciecha Kruszyńskiego zawierająca jego dorobek życia oraz ścieżkę rozwoju">
+    <title>WK Consulting</title>
+    <!-- Title icon -->
+    <link rel="icon" href="./images/bookmark-icon/logo-icon.jpg">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- Container -->
+    <!-- Banner -->
+    <link rel="stylesheet" href="./css/banner.min.css">
+    <!-- Navigation -->
+    <link rel="stylesheet" href="./css/navigation.min.css">
+</head>
+
+<body>
+    <!-- Nawigacja -->
+    <nav class="main-navigation">
+        <div class="inner">
+            <!-- Logo-navigation -->
+            <div class="logo">
+                <a href="#" class="link">
+                    <img src="./images/logo/menu-logo.jpg" alt="WK Consulting">
+                    <!-- <div class="logo-text"> -->
+                    <p class="top-text">WK Consulting</p>
+                    <small class="--bottom-text">Biuro Doradztwa Biznesowego. Wycena Firm.</small>
+                    <!-- </div> -->
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-list__item">
+                    <a href="#about">O firmie</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#about">Oferta</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#about">Doświadczenie</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#about">Współpraca</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#about">Kontakt</a>
+                </li>
+            </ul>
+            <button class="mobile-button js-mobile-button">
+                <img src="./images/hamburger-menu/hamburger-menu.jpg" alt="Hamburger" class="image">
+            </button>
+        </div>
+    </nav>
+    <!-- Baner -->
+    <section class="main-banner"></section>
+    <!-- O firmie -->
+    <div class="container">
+        <section class="about" id="about"></section>
+    </div>
+    <!-- Oferta -->
+    <div class="container">
+        <section class="offer" id="offer"></section>
+    </div>
+    <!-- Doświadczenie -->
+    <div class="container">
+        <section class="experience" id="experience"></section>
+    </div>
+    <!-- Cooperation -->
+    <div class="container">
+        <section class="coopertion" id="cooperation"></section>
+    </div>
+    <!-- Kontakt -->
+    <div class="container">
+        <section class="contact" id="contact"></section>
+    </div>
+    <!-- Footer -->
+    <footer class="bottom"></footer>
 </body>
 
 </html>
