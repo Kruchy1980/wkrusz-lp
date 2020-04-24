@@ -1,26 +1,40 @@
 // Nawigacja - na mobilki
-nav {
+.main-navigation {
+    display: flex;
     position: fixed;
     align-items: center;
-    background: #dddddd80;
+    background: #bbbbbb80;
     height: 100px;
     width: 100%;
     .inner {
+        margin: 0 auto;
+        width: 95%;
+        max-width: 1400px;
         display: flex;
+        align-content: center;
         justify-content: space-between;
-        align-items: center;
         .logo {
-            link {
+            .link {
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
-                align-items: center;
+                text-decoration: none;
+                .logo-text {
+                    .top-text {
+                        margin-left: 3px;
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: #008000;
+                    }
+                    .bottom-text {
+                        font-size: 10px;
+                        color: #000;
+                    }
+                }
             }
         }
         img {
-            width: 50px;
-            height: 50px;
-            float: left;
+            width: 55px;
+            height: 55px;
         }
         ul {
             display: none;
@@ -35,16 +49,17 @@ nav {
                 }
             }
         }
-    }
-    // Hamburger menu
-    .mobile-button {
-        border: none;
-        display: block;
-        cursor: pointer;
-        img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+        // Hamburger menu
+        .mobile-button {
+            border: none;
+            display: block;
+            cursor: pointer;
+            // justify-self: flex-end;
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
         }
     }
 }
