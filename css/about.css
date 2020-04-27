@@ -1,0 +1,54 @@
+/* .about-content {
+    margin-top: 20px;
+} */
+
+
+/* About content title */
+
+.about-content__title {
+    display: inline-block;
+    margin: 20px 0;
+    text-transform: uppercase;
+    border: 1px solid #008000;
+    width: auto;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-content__text {
+    height: 60px;
+    overflow: hidden;
+}
+
+.about-content__text--open {
+    height: auto;
+}
+
+.about-content__title__arrow-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.about-content__paragraph {
+    margin: 10px 0;
+}
+
+.about-content__paragraph--larger-top {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-content__list {
+    list-style: disc;
+    margin-left: 8vw;
+}
+
+.about-content__list__item {
+    padding-left: 20px;
+}
+
+.hide-dots {
+    display: none;
+}

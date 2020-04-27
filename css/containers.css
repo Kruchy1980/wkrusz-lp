@@ -1,4 +1,12 @@
 .container {
-    width: 1100px;
-    margin: auto;
+    min-width: 90vw;
+    max-width: 1100px;
+    margin: 20px auto;
 }
+
+
+/* .container--small {
+    margin: 0 auto;
+    min-width: 90vw;
+    max-width: 960px;
+} */

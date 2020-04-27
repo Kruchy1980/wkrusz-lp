@@ -2,6 +2,8 @@
 
 .main-section {
     margin-top: 20px;
+    margin-left: 10px;
+    /* background-color: #00800080; */
 }
 
 
@@ -9,7 +11,7 @@
 
 .main-section__header {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-start;
     border-bottom: 2px solid #999;
 }
@@ -26,7 +28,7 @@
 
 .main-section__text {
     text-transform: uppercase;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     margin-left: 10px;
     font-size: 1.4em;
     font-weight: bold;
