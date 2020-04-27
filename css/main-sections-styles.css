@@ -1,0 +1,34 @@
+/* Section */
+
+.main-section {
+    margin-top: 20px;
+}
+
+
+/* Header */
+
+.main-section__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-bottom: 2px solid #999;
+}
+
+
+/* Image */
+
+.main-section__image {
+    opacity: 0.5;
+}
+
+
+/* Text */
+
+.main-section__text {
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #008000;
+}
