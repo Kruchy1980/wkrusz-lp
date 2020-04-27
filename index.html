@@ -9,14 +9,16 @@
     <title>WK Consulting</title>
     <!-- Title icon -->
     <link rel="icon" href="./images/bookmark-icon/logo-icon.jpg">
+    <!-- Fonts roboto two styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Slab:wght@300;700;800&display=swap" rel="stylesheet">
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./css/main.css">
     <!-- Container -->
     <link rel="stylesheet" href="./css/containers.css">
     <!-- Banner -->
-    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/main-banner.css">
     <!-- Navigation -->
-    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/main-navigation.css">
 </head>
 
 <body>
@@ -26,31 +28,31 @@
             <!-- Logo-navigation -->
             <div class="main-navigation__inner__logo">
                 <a href="#top" class="main-navigation__inner__logo__link">
-                    <img src="./images/logo/menu-logo.jpg" alt="WK Consulting">
-                    <div class="main-navigation__inner__logo__logo-text">
+                    <img class="main-navigation__inner__logo__image" src="./images/logo/menu-logo.jpg" alt="WK Consulting">
+                    <div class="main-navigation__inner__logo-text">
                         <p class="main-navigation__inner__logo__text--top">WK Consulting</p>
-                        <small class="main-navigation__inner__logo__text__bottom">Biuro Doradztwa Biznesowego. Wycena Firm.</small>
+                        <small class="main-navigation__inner__logo__text--bottom">Biuro Doradztwa Biznesowego. Wycena Firm.</small>
                     </div>
                 </a>
             </div>
-            <ul class="main-navigation__inner__nav-list">
+            <ul class="main-navigation__inner__nav-list js-main-navigation__inner__nav-list">
                 <li class="main-navigation__inner__nav-list__item">
-                    <a href="#about">O firmie</a>
+                    <a href="#about" class="main-navigation__inner__nav-list__item--link">O firmie</a>
                 </li>
                 <li class="main-navigation__inner__nav-list__item">
-                    <a href="#about">Oferta</a>
+                    <a href="#about" class="main-navigation__inner__nav-list__item--link">Oferta</a>
                 </li>
                 <li class="main-navigation__inner__nav-list__item">
-                    <a href="#about">Doświadczenie</a>
+                    <a href="#about" class="main-navigation__inner__nav-list__item--link">Doświadczenie</a>
                 </li>
                 <li class="main-navigation__inner__nav-list__item">
-                    <a href="#about">Współpraca</a>
+                    <a href="#about" class="main-navigation__inner__nav-list__item--link">Współpraca</a>
                 </li>
                 <li class="main-navigation__inner__nav-list__item">
-                    <a href="#about">Kontakt</a>
+                    <a href="#about" class="main-navigation__inner__nav-list__item--link">Kontakt</a>
                 </li>
             </ul>
-            <button class="main-navigation__inner__mobile-button js-mobile-button">
+            <button class="main-navigation__inner__mobile-button  js-main-navigation__inner__mobile-button">
                 <img class="main-navigation__inner__mobile-button--image" src="./images/hamburger-menu/hamburger-menu.jpg" alt="Hamburger" class="image">
             </button>
         </div>
@@ -81,6 +83,7 @@
     <footer class="footer__bottom">
         <p>&copy; 2020</p>
     </footer>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

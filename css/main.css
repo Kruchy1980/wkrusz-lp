@@ -1,0 +1,25 @@
+/* Global styles file */
+
+
+/* Used fonts: 
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+
+/* All elements and sudo elements globally */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body - global */
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
