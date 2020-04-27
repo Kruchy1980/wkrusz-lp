@@ -10,52 +10,53 @@
     <!-- Title icon -->
     <link rel="icon" href="./images/bookmark-icon/logo-icon.jpg">
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <!-- Container -->
+    <link rel="stylesheet" href="./css/containers.css">
     <!-- Banner -->
-    <link rel="stylesheet" href="./css/banner.min.css">
+    <link rel="stylesheet" href="./css/banner.css">
     <!-- Navigation -->
-    <link rel="stylesheet" href="./css/navigation.min.css">
+    <link rel="stylesheet" href="./css/navigation.css">
 </head>
 
 <body>
     <!-- Nawigacja -->
     <nav class="main-navigation">
-        <div class="inner">
+        <div class="main-navigation__inner">
             <!-- Logo-navigation -->
-            <div class="logo">
-                <a href="#" class="link">
+            <div class="main-navigation__inner__logo">
+                <a href="#top" class="main-navigation__inner__logo__link">
                     <img src="./images/logo/menu-logo.jpg" alt="WK Consulting">
-                    <div class="logo-text">
-                        <p class="top-text">WK Consulting</p>
-                        <small class="bottom-text">Biuro Doradztwa Biznesowego. Wycena Firm.</small>
+                    <div class="main-navigation__inner__logo__logo-text">
+                        <p class="main-navigation__inner__logo__text--top">WK Consulting</p>
+                        <small class="main-navigation__inner__logo__text__bottom">Biuro Doradztwa Biznesowego. Wycena Firm.</small>
                     </div>
                 </a>
             </div>
-            <ul class="nav-list">
-                <li class="nav-list__item">
+            <ul class="main-navigation__inner__nav-list">
+                <li class="main-navigation__inner__nav-list__item">
                     <a href="#about">O firmie</a>
                 </li>
-                <li class="nav-list__item">
+                <li class="main-navigation__inner__nav-list__item">
                     <a href="#about">Oferta</a>
                 </li>
-                <li class="nav-list__item">
+                <li class="main-navigation__inner__nav-list__item">
                     <a href="#about">Doświadczenie</a>
                 </li>
-                <li class="nav-list__item">
+                <li class="main-navigation__inner__nav-list__item">
                     <a href="#about">Współpraca</a>
                 </li>
-                <li class="nav-list__item">
+                <li class="main-navigation__inner__nav-list__item">
                     <a href="#about">Kontakt</a>
                 </li>
             </ul>
-            <button class="mobile-button js-mobile-button">
-                <img src="./images/hamburger-menu/hamburger-menu.jpg" alt="Hamburger" class="image">
+            <button class="main-navigation__inner__mobile-button js-mobile-button">
+                <img class="main-navigation__inner__mobile-button--image" src="./images/hamburger-menu/hamburger-menu.jpg" alt="Hamburger" class="image">
             </button>
         </div>
     </nav>
     <!-- Baner -->
-    <section class="main-banner"></section>
+    <section class="main-banner" id="top"></section>
     <!-- O firmie -->
     <div class="container">
         <section class="about" id="about"></section>
@@ -77,7 +78,9 @@
         <section class="contact" id="contact"></section>
     </div>
     <!-- Footer -->
-    <footer class="bottom"></footer>
+    <footer class="footer__bottom">
+        <p>&copy; 2020</p>
+    </footer>
 </body>
 
 </html>

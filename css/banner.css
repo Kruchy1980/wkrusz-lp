@@ -1,6 +1,6 @@
-.banner {
-  background-image: url("/images/banner/banner-main.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.main-banner {
+    background-image: url('../images/banner/banner-main.jpeg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
 }
