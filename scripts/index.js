@@ -195,6 +195,22 @@
     }
     rollerCalculationManagement.addEventListener('click', showHidden);
 })();
+// 11. Training
+(() => {
+    const rollerCalculationTraining = document.querySelector('.offer-content__title__calculation__training');
+    const sectionHeightCalculationTraining = document.querySelector('.offer-content__text__calculation__training');
+    const dotsCalculationTraining = document.querySelector('.multi-dot__calculation__training');
+
+    const showHidden = () => {
+        sectionHeightCalculationTraining.classList.toggle('offer-content__text__calculation__training--open');
+        if (dotsCalculationTraining.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsCalculationTraining.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsCalculationTraining.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerCalculationTraining.addEventListener('click', showHidden);
+})();
 // Menu on button
 (() => {
     const button = document.querySelector('.js-main-navigation__inner__mobile-button');

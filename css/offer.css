@@ -286,3 +286,32 @@
 .offer-content__text__calculation__management--open {
     height: auto;
 }
+
+
+/* Training*/
+
+.offer-content__title__calculation__training {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__training {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__training--open {
+    height: auto;
+}
