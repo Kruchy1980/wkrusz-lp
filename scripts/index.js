@@ -261,6 +261,22 @@
     }
     rollerWorkExperience.addEventListener('click', showHidden);
 })();
+// 3. Clients - Experience
+(() => {
+    const rollerClients = document.querySelector('.experience-content__title__clients');
+    const sectionHeightClients = document.querySelector('.experience-content__text__clients');
+    const dotsClients = document.querySelector('.multi-dot__experience__clients');
+
+    const showHidden = () => {
+        sectionHeightClients.classList.toggle('experience-content__text__clients--open');
+        if (dotsClients.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsClients.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsClients.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerClients.addEventListener('click', showHidden);
+})();
 // Menu on button
 (() => {
     const button = document.querySelector('.js-main-navigation__inner__mobile-button');
