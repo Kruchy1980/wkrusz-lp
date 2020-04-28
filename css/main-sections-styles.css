@@ -96,3 +96,12 @@
 .content__o-list__item {
     padding-left: 20px;
 }
+
+.content__o-list--inner {
+    margin-left: 10px;
+    list-style-type: lower-alpha;
+}
+
+.content__o-list__item--inner {
+    padding-left: 10px;
+}

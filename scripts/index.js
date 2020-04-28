@@ -163,6 +163,38 @@
     }
     rollerCalculationSystems.addEventListener('click', showHidden);
 })();
+// 9. Benchmark
+(() => {
+    const rollerCalculationBenchmark = document.querySelector('.offer-content__title__calculation__benchmark');
+    const sectionHeightCalculationBenchmark = document.querySelector('.offer-content__text__calculation__benchmark');
+    const dotsCalculationBenchmark = document.querySelector('.multi-dot__calculation__benchmark');
+
+    const showHidden = () => {
+        sectionHeightCalculationBenchmark.classList.toggle('offer-content__text__calculation__benchmark--open');
+        if (dotsCalculationBenchmark.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsCalculationBenchmark.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsCalculationBenchmark.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerCalculationBenchmark.addEventListener('click', showHidden);
+})();
+// 10. Interim Management
+(() => {
+    const rollerCalculationManagement = document.querySelector('.offer-content__title__calculation__management');
+    const sectionHeightCalculationManagement = document.querySelector('.offer-content__text__calculation__management');
+    const dotsCalculationManagement = document.querySelector('.multi-dot__calculation__management');
+
+    const showHidden = () => {
+        sectionHeightCalculationManagement.classList.toggle('offer-content__text__calculation__management--open');
+        if (dotsCalculationManagement.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsCalculationManagement.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsCalculationManagement.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerCalculationManagement.addEventListener('click', showHidden);
+})();
 // Menu on button
 (() => {
     const button = document.querySelector('.js-main-navigation__inner__mobile-button');
