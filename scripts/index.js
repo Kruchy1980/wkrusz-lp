@@ -229,6 +229,38 @@
     }
     rollerEducation.addEventListener('click', showHidden);
 })();
+// 2. Courses
+(() => {
+    const rollerCourses = document.querySelector('.experience-content__title__courses');
+    const sectionHeightCourses = document.querySelector('.experience-content__text__courses');
+    const dotsCourses = document.querySelector('.multi-dot__experience__courses');
+
+    const showHidden = () => {
+        sectionHeightCourses.classList.toggle('experience-content__text__courses--open');
+        if (dotsCourses.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsCourses.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsCourses.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerCourses.addEventListener('click', showHidden);
+})();
+// 3. Work - Experience
+(() => {
+    const rollerWorkExperience = document.querySelector('.experience-content__title__work-experience');
+    const sectionHeightWorkExperience = document.querySelector('.experience-content__text__work-experience');
+    const dotsWorkExperience = document.querySelector('.multi-dot__experience__work-experience');
+
+    const showHidden = () => {
+        sectionHeightWorkExperience.classList.toggle('experience-content__text__work-experience--open');
+        if (dotsWorkExperience.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsWorkExperience.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsWorkExperience.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerWorkExperience.addEventListener('click', showHidden);
+})();
 // Menu on button
 (() => {
     const button = document.querySelector('.js-main-navigation__inner__mobile-button');

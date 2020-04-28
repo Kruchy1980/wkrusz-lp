@@ -25,3 +25,90 @@
 .experience-content__text__education--open {
     height: auto;
 }
+
+
+/* 2.Courses */
+
+.experience-content__title__courses {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.experience-content__text__courses {
+    height: 60px;
+    overflow: hidden;
+}
+
+.experience-content__text__courses--open {
+    height: auto;
+}
+
+
+/* 3. Work Experience */
+
+.experience-content__title__work-experience {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.experience-content__text__work-experience {
+    height: 60px;
+    overflow: hidden;
+}
+
+.experience-content__text__work-experience--open {
+    height: auto;
+}
+
+
+/* 4.Clients */
+
+.experience-content__title__clients {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.experience-content__text__clients {
+    height: 60px;
+    overflow: hidden;
+}
+
+.experience-content__text__clients--open {
+    height: auto;
+}
