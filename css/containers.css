@@ -1,102 +1,11 @@
-/* Main Section */
+/* Containers */
 
-
-/* .about__main-section {
-    
-} */
-
-
-/* About content title history*/
-
-
-/* History */
-
-.about-content__title__history {
-    display: inline-block;
-    margin: 20px 0;
-    color: #4af84a;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    width: auto;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.about-content__text__history {
-    height: 60px;
-    overflow: hidden;
-}
-
-.about-content__text__history--open {
-    height: auto;
-}
-
-.hide-dots__history {
-    display: none;
-}
-
-
-/* Description */
-
-.about-content__title__description {
-    display: inline-block;
-    margin: 20px 0;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    width: auto;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.about-content__text__description {
-    height: 60px;
-    overflow: hidden;
-}
-
-.about-content__text__description {
-    height: 60px;
-    overflow: hidden;
-}
-
-.about-content__text__description--open {
-    height: auto;
-}
-
-.hide-dots__description {
-    display: none;
-}
-
-
-/* General */
-
-.about-content__title__arrow-icon {
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-}
-
-.about-content__paragraph {
-    margin: 10px 0;
-}
-
-.about-content__paragraph--larger-top {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.about-content__list {
-    margin: 10px 0;
-    list-style: disc;
-    line-height: 25px;
-    margin-left: 8vw;
-}
-
-.about-content__list__item {
-    padding-left: 20px;
-}
-
-.active {
-    height: auto;
+.container__inner {
+    max-width: 900px;
+    margin: 0 auto;
 }
