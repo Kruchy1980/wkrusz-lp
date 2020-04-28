@@ -10,11 +10,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__business {
@@ -39,11 +40,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation {
@@ -68,11 +70,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__mark {
@@ -97,11 +100,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__test {
@@ -126,11 +130,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__investor {
@@ -155,11 +160,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__due-diligence {
@@ -184,11 +190,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__transfers {
@@ -213,11 +220,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__systems {
@@ -242,11 +250,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__benchmark {
@@ -271,11 +280,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__management {
@@ -300,11 +310,12 @@
     opacity: 0.6;
     text-transform: uppercase;
     border: 1px solid #222;
-    max-width: 65vw;
+    max-width: 80vw;
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .offer-content__text__calculation__training {
