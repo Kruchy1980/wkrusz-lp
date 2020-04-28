@@ -1,7 +1,8 @@
 /* Section */
 
 .main-section {
-    padding: 10px;
+    margin: 110px 5px;
+    padding-top: 10px;
 }
 
 
@@ -12,6 +13,7 @@
     align-items: baseline;
     justify-content: flex-start;
     border-bottom: 2px solid #999;
+    margin-top: 60px;
 }
 
 
