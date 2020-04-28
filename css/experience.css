@@ -1,0 +1,27 @@
+/* 1.Education */
+
+.experience-content__title__education {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.experience-content__text__education {
+    height: 60px;
+    overflow: hidden;
+}
+
+.experience-content__text__education--open {
+    height: auto;
+}

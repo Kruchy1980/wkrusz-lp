@@ -211,6 +211,24 @@
     }
     rollerCalculationTraining.addEventListener('click', showHidden);
 })();
+
+// EXPERIENCE
+// 1. Education
+(() => {
+    const rollerEducation = document.querySelector('.experience-content__title__education');
+    const sectionHeightEducation = document.querySelector('.experience-content__text__education');
+    const dotsEducation = document.querySelector('.multi-dot__experience__education');
+
+    const showHidden = () => {
+        sectionHeightEducation.classList.toggle('experience-content__text__education--open');
+        if (dotsEducation.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsEducation.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsEducation.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerEducation.addEventListener('click', showHidden);
+})();
 // Menu on button
 (() => {
     const button = document.querySelector('.js-main-navigation__inner__mobile-button');
