@@ -65,14 +65,14 @@
     <section class="main-banner" id="top"></section>
     <!-- O firmie -->
     <div class="container">
-        <section class="about main-section" id="about">
+        <section class="about__main-section" id="about">
             <div class="about__header main-section__header">
-                <img class="about__header__image main-section__image" src="./images/sections-icons/1.o-firmie.png" alt="O Firmie">
+                <img class="about__header__image main-section__image" src="./images/sections-icons/1.o-firmie1.png" alt="O Firmie">
                 <span class="about__header__text main-section__text">O Firmie</span>
             </div>
             <!-- Section content -->
-            <div class="about-content__text">
-                <h1 class="about-content__title">Opis, historia <span class="multi-dot"><img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span></h1>
+            <div class="about-content__text__history active">
+                <h1 class="about-content__title__history">Historia<span class="multi-dot__history"><img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span></h1>
                 <p class="about-content__paragraph">Dzień dobry,</p>
                 <p class="about-content__paragraph">Jako doradca gospodarczy pracuję od 1997 roku. Jestem absolwentem Wydziału Zarządzania Uniwersytetu Gdańskiego (kierunek Finanse i Bankowość, tytuł magistra ekonomii uzyskany w 1998 roku).</p>
                 <p class="about-content__paragraph">Należę do Stowarzyszenia Doradców Gospodarczych, które w Polsce działa od 1990 roku  grupując praktyków życia gospodarczego pracujących w firmach konsultingowych.</p>
@@ -82,7 +82,12 @@
                     zarazem najtrudniejsza część mojej pracy.</p>
                 <p class="about-content__paragraph">Ponadto utrzymuję stały kontakt ze sprawdzonymi specjalistami z zakresu prawa, księgowości, strategii i marketingu, co pozwala na realizację bardziej złożonych, interdyscyplinarnych zleceń doradczych. Daje torównież możliwość świadczenia
                     usług typu interim management.</p>
-                <p class="about-content__paragraph--larger-top">W ramach działalności doradczej realizuję zlecenia polegające na:</p>
+            </div>
+            <div class="about-content__text__description">
+                <h1 class="about-content__title__description">Opis<span class="multi-dot__description"><img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span></h1>
+                <p class=".about-content__paragraph">
+                    W ramach działalności doradczej realizuję zlecenia polegające na:
+                </p>
                 <ul class="about-content__list">
                     <li class="about-content__list__item">Sporządzaniu biznes planów </li>
                     <li class="about-content__list__item">Pozyskiwaniu źródeł finansowania (m in. wnioski kredytowe)</li>
@@ -95,25 +100,32 @@
                     <li class="about-content__list__item">Sporządzaniu analiz ekonomiczno – finansowych, w tym Benchmark analysis</li>
                     <li class="about-content__list__item">Sporządzaniu planów finansowych/ budżetów</li>
                 </ul>
-                <p class="about-content__paragraph--larger-top">W ramach działalności szkoleniowej realizuję projekty z zakresu finansów, w szczególności:</p>
+                <p class="about-content__paragraph--larger-top">
+                    W ramach działalności szkoleniowej realizuję projekty z zakresu finansów, w szczególności:
+                </p>
                 <ul class="about-content__list">
                     <li class="about-content__list__item">Finanse dla niefinansistów</li>
                     <li class="about-content__list__item">Finanse dla kadry zarządzającej</li>
                     <li class="about-content__list__item">Ekonomiczne aspekty działalności operacyjnej przedsiębiorstw</li>
                 </ul>
-                <p class="about-content__paragraph">Serdecznie zapraszam do współpracy</p>
-                <p class="about-content__paragraph">Wojciech Kruszyński</p>
-
+                <p class="about-content__paragraph--larger-top">
+                    Serdecznie zapraszam do współpracy
+                </p>
+                <p class="about-content__paragraph--larger-top">
+                    Wojciech Kruszyński
+                </p>
             </div>
 
-        </section>
+    </div>
+
+    </section>
     </div>
     <!-- Oferta -->
     <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
     <div class="container">
         <section class="offer main-section " id="offer">
             <div class="offer__header main-section__header">
-                <img class="offer__header__image main-section__image" src="./images/sections-icons/2.oferta.png" alt="O Firmie">
+                <img class="offer__header__image main-section__image" src="./images/sections-icons/2.oferta1.png" alt="O Firmie">
                 <span class="offer__header__text main-section__text">Oferta</span>
             </div>
         </section>
@@ -133,7 +145,7 @@
     <div class="container">
         <section class="cooperation main-section" id="cooperation">
             <div class="cooperation__header main-section__header">
-                <img class="cooperation__header__image main-section__image" src="./images/sections-icons/4.wspolpraca.png" alt="O Firmie">
+                <img class="cooperation__header__image main-section__image" src="./images/sections-icons/4.wspolpraca1.png" alt="O Firmie">
                 <span class="cooperation__header__text main-section__text">Współpraca</span>
             </div>
         </section>
@@ -153,17 +165,6 @@
         <p>&copy; 2020</p>
     </footer>
     <script src="./scripts/index.js"></script>
-    <script>
-        // const roller = document.querySelector('.about-content__title');
-        // const sectionHeight = document.querySelector('.about-content__text');
-        // const dots = document.querySelector('.multi-dot');
-
-        // const showHidden = () => {
-        //     sectionHeight.classList.toggle('about-content__text--open');
-        //     dots.classList.toggle('hide-dots');
-        // }
-        // roller.addEventListener('click', showHidden);
-    </script>
 </body>
 
 </html>

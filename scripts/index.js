@@ -1,18 +1,38 @@
+// HIstory
 (() => {
-    const roller = document.querySelector('.about-content__title');
-    const sectionHeight = document.querySelector('.about-content__text');
-    const dots = document.querySelector('.multi-dot');
+    const rollerHistory = document.querySelector('.about-content__title__history');
+    const sectionHeightHistory = document.querySelector('.about-content__text__history');
+    const dotsHistory = document.querySelector('.multi-dot__history');
 
     const showHidden = () => {
-        sectionHeight.classList.toggle('about-content__text--open');
-        // dots.classList.toggle('hide-dots');
-        if (dots.innerHTML === '<img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
-            dots.innerHTML = `<img class="about-content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        sectionHeightHistory.classList.toggle('about-content__text__history--open');
+        if (dotsHistory.innerHTML === '<img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsHistory.innerHTML = `<img class="about-content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
         } else {
-            dots.innerHTML = '<img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+            dotsHistory.innerHTML = '<img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+        if (sectionHeightHistory.classList.contains('active')) {
+            sectionHeightHistory.classList.toggle('active');
+            sectionHeightHistory.classList.toggle('about-content__text__history--open');
         }
     }
-    roller.addEventListener('click', showHidden);
+    rollerHistory.addEventListener('click', showHidden);
+})();
+// Description
+(() => {
+    const rollerDescription = document.querySelector('.about-content__title__description');
+    const sectionHeightDescription = document.querySelector('.about-content__text__description');
+    const dotsDescription = document.querySelector('.multi-dot__description');
+
+    const showHidden = () => {
+        sectionHeightDescription.classList.toggle('about-content__text__description--open');
+        if (dotsDescription.innerHTML === '<img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+            dotsDescription.innerHTML = `<img class="about-content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+        } else {
+            dotsDescription.innerHTML = '<img class="about-content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+        }
+    }
+    rollerDescription.addEventListener('click', showHidden);
 })();
 // Menu on button
 (() => {
