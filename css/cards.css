@@ -1,0 +1,29 @@
+/* Card all text and anchor Tag */
+
+.cooperation__company__card--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    border: 1px solid #22222280;
+    padding: 10px;
+    width: 90vw;
+    max-width: 420px;
+    font-size: 5vw;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px #a513e9;
+    transition: 0.5s;
+}
+
+.cooperation__company__card--link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media(min-width: 425px) {
+    .cooperation__company__card--text {
+        font-size: 24px;
+    }
+}

@@ -7,35 +7,708 @@
     <meta name="keywords" content="wk, kruszynski, kruszyński, wojciech,consulting, doradztwo biznesowe, wycena, benchmark, analiza finansowa, test utraty wartości, test prywatnego inwestora, biznes plan, opłacalność inwestycji">
     <meta name="description" content="Jest to wizytówka Wojciecha Kruszyńskiego zawierająca jego dorobek życia oraz ścieżkę rozwoju">
     <title>WK Consulting</title>
+    <!-- Title icon -->
     <link rel="icon" href="./images/bookmark-icon/logo-icon.jpg">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- Fonts roboto two styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Slab:wght@300;700;800&display=swap" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Container -->
+    <link rel="stylesheet" href="./css/containers.css">
+    <!-- Banner -->
+    <link rel="stylesheet" href="./css/main-banner.css">
+    <!-- Navigation -->
+    <link rel="stylesheet" href="./css/main-navigation.css">
+    <!-- Main Sections Styles -->
+    <link rel="stylesheet" href="./css/main-sections-styles.css">
+    <!-- About -->
+    <link rel="stylesheet" href="./css/about.css">
+    <!-- Offer -->
+    <link rel="stylesheet" href="./css/offer.css">
+    <!-- Experience -->
+    <link rel="stylesheet" href="./css/experience.css">
+    <!-- Cards -->
+    <link rel="stylesheet" href="./css/cards.css">
 </head>
 
 <body>
     <!-- Nawigacja -->
-    <nav class="navbar">
-        <img src="./images/logo/menu-logo.jpg" alt="WK Consulting">
-        <ul>
-            <li>O firmie</li>
-            <li>Oferta</li>
-            <li>Doświadczenie</li>
-            <li>Współpraca</li>
-            <li>Kontakt</li>
-            <li>Przykład??</li>
-        </ul>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <!-- Logo-navigation -->
+            <div class="main-navigation__inner__logo">
+                <a href="#top" class="main-navigation__inner__logo__link">
+                    <img class="main-navigation__inner__logo__image" src="./images/logo/menu-logo.jpg" alt="WK Consulting">
+                    <div class="main-navigation__inner__logo-text">
+                        <p class="main-navigation__inner__logo__text--top">WK Consulting</p>
+                        <small class="main-navigation__inner__logo__text--bottom">Biuro Doradztwa Biznesowego. Wycena Firm.</small>
+                    </div>
+                </a>
+            </div>
+            <ul class="main-navigation__inner__nav-list js-main-navigation__inner__nav-list">
+                <li class="main-navigation__inner__nav-list__item">
+                    <a href="#about" class="main-navigation__inner__nav-list__item--link">O firmie</a>
+                </li>
+                <li class="main-navigation__inner__nav-list__item">
+                    <a href="#offer" class="main-navigation__inner__nav-list__item--link">Oferta</a>
+                </li>
+                <li class="main-navigation__inner__nav-list__item">
+                    <a href="#experience" class="main-navigation__inner__nav-list__item--link">Doświadczenie</a>
+                </li>
+                <li class="main-navigation__inner__nav-list__item">
+                    <a href="#cooperation" class="main-navigation__inner__nav-list__item--link">Współpraca</a>
+                </li>
+                <li class="main-navigation__inner__nav-list__item">
+                    <a href="#contact" class="main-navigation__inner__nav-list__item--link">Kontakt</a>
+                </li>
+            </ul>
+            <button class="main-navigation__inner__mobile-button  js-main-navigation__inner__mobile-button">
+                <img class="main-navigation__inner__mobile-button--image" src="./images/hamburger-menu/hamburger-menu.jpg" alt="Hamburger" class="image">
+            </button>
+        </div>
     </nav>
+    <!-- Baner -->
+    <section class="main-banner" id="top"></section>
     <!-- O firmie -->
-    <section class="about"></section>
+    <div class="container">
+        <section class="about main-section" id="about">
+            <div class="about__header main-section__header">
+                <img class="about__header__image main-section__image" src="./images/sections-icons/1.o-firmie1.png" alt="O Firmie">
+                <span class="about__header__text main-section__text">O Firmie</span>
+            </div>
+            <!-- Section content -->
+            <div class="about-content__text__history active">
+                <h1 class="about-content__title__history"><span class="multi-dot__history"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span> Historia</h1>
+                <p class="content__paragraph">Dzień dobry,</p>
+                <p class="content__paragraph">Jako doradca gospodarczy pracuję od 1997 roku. Jestem absolwentem Wydziału Zarządzania Uniwersytetu Gdańskiego (kierunek Finanse i Bankowość, tytuł magistra ekonomii uzyskany w 1998 roku).</p>
+                <p class="content__paragraph">Należę do Stowarzyszenia Doradców Gospodarczych, które w Polsce działa od 1990 roku  grupując praktyków życia gospodarczego pracujących w firmach konsultingowych.</p>
+                <p class="content__paragraph">Początki mojej działalności zawodowej związane były z firmą DORADCA Consultants Ltd., z którą współpracowałem przez 9 lat w zespole doradztwa finansowego.</p>
+                <p class="content__paragraph">W 2006 roku rozpocząłem własną działalność pod nazwą WK Consulting. Do podstawowego zakresu moich usług należy doradztwo i szkolenia w zakresie finansów przedsiębiorstw.</p>
+                <p class="content__paragraph">Szczególnie specjalizuję się w szacowaniu wartości przedsiębiorstw oraz ich specyficznych aktywów, takich jak marka, know-how, znak towarowy, goodwill. Poszukiwanie czynników budujących atrakcyjność inwestycyjną firmy to najciekawsza i
+                    zarazem najtrudniejsza część mojej pracy.</p>
+                <p class="content__paragraph">Ponadto utrzymuję stały kontakt ze sprawdzonymi specjalistami z zakresu prawa, księgowości, strategii i marketingu, co pozwala na realizację bardziej złożonych, interdyscyplinarnych zleceń doradczych. Daje torównież możliwość świadczenia
+                    usług typu interim management.</p>
+            </div>
+            <div class="about-content__text__description">
+                <h1 class="about-content__title__description"><span class="multi-dot__description"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span> Opis</h1>
+                <p class=".content__paragraph">
+                    W ramach działalności doradczej realizuję zlecenia polegające na:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list__item">Sporządzaniu biznes planów </li>
+                    <li class="content__list__item">Pozyskiwaniu źródeł finansowania (m in. wnioski kredytowe)</li>
+                    <li class="content__list__item">Sporządzaniu analiz opłacalności inwestycji</li>
+                    <li class="content__list__item">Wycenie wartości firm oraz specyficznych aktywów (marka, goodwill, patent, technologia, itp.)</li>
+                    <li class="content__list__item">Sporządzaniu testów utraty wartości, testów prywatnego inwestora</li>
+                    <li class="content__list__item">Realizacji projektów due diligence (w tym koordynacja prac zespołu)</li>
+                    <li class="content__list__item">Sporządzaniu dokumentacji cen transferowych</li>
+                    <li class="content__list__item">Projektowaniu i wdrażaniu systemów/kalkulatorów rachunkowości zarządczej</li>
+                    <li class="content__list__item">Sporządzaniu analiz ekonomiczno – finansowych, w tym Benchmark analysis</li>
+                    <li class="content__list__item">Sporządzaniu planów finansowych/ budżetów</li>
+                </ul>
+                <p class="content__paragraph--larger-top">
+                    W ramach działalności szkoleniowej realizuję projekty z zakresu finansów, w szczególności:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list__item">Finanse dla niefinansistów</li>
+                    <li class="content__list__item">Finanse dla kadry zarządzającej</li>
+                    <li class="content__list__item">Ekonomiczne aspekty działalności operacyjnej przedsiębiorstw</li>
+                </ul>
+                <p class="content__paragraph--larger-top">
+                    Serdecznie zapraszam do współpracy
+                </p>
+                <p class="content__paragraph--larger-top">
+                    Wojciech Kruszyński
+                </p>
+            </div>
+    </div>
+    </section>
+    </div>
     <!-- Oferta -->
-    <section class="offer"></section>
+    <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+    <div class="container">
+        <section class="offer main-section " id="offer">
+            <div class="offer__header main-section__header">
+                <img class="offer__header__image main-section__image" src="./images/sections-icons/2.oferta1.png" alt="O Firmie">
+                <span class="offer__header__text main-section__text">Oferta</span>
+            </div>
+            <div class="offer-content__text__business">
+                <h1 class="offer-content__title__business"><span class="multi-dot__business"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span> Biznes Plan, wniosek kredytowy, analiza opłacalności investycji</h1>
+                <p class=".content__paragraph">
+                    Biznes plan jest dokumentem opisującym projektowane przedsięwzięcie, wraz z określeniem działań i zasobów niezbędnych do jego realizacji.
+                </p>
+                <p class="content__paragraph--larger-top">Typowy biznes plan zawiera:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">Plan działań marketingowych i sprzedaży; </li>
+                    <li class="content__list__item">Plan kosztów; </li>
+                    <li class="content__list__item">Plan zasobów; </li>
+                    <li class="content__list__item">Plan źródeł finansowania, wraz z harmonogramem finansowania; </li>
+                    <li class="content__list__item">Plan strony technologicznej przedsięwzięcia.</li>
+                </ul>
+                <p class="content__paragraph--larger-top">Informacje zawarte w biznes planie pozwalają na sporządzenie analizy opłacalności przedsięwzięcia oraz analizy ryzyka wiążącego się z jego realizacją. </p>
+                <p class=".content__paragraph">Analiza opłacalności dostarcza odbiorcom informacji danych niezbędnych do podjęcia decyzji:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">Czy warto angażować się w przedsięwzięcie; </li>
+                    <li class="content__list__item">Jakie ryzyko wiąże się z realizacją przedsięwzięcia; </li>
+                    <li class="content__list__item">Które przedsięwzięcie (wariant przedsięwzięcia) możliwe do realizacji wybrać. </li>
+                </ul>
+                <p class="content__paragraph--larger-top">Biznes plan jest składową między innymi wniosków kredytowych w odniesieniu do projektów spełniających określone warunki brzegowe. W tym przypadku zakres opracowania jest dostosowywany do indywidualnych wymogów instytucji finansującej przedsięwzięcie.</p>
+                <p class=".content__paragraph">Do właściwej oceny <strong>efektywności każdego projektu inwestycyjnego</strong> niezbędne jest wcześniejsze przeprowadzenie odpowiedniego rachunku ekonomicznego, pozwalającego ocenić stosowność i opłacalność danej inwestycji. Rachunek
+                    taki opiera się na zestawieniu nakładów potrzebnych na daną inwestycję (najczęściej są to wydatki kapitałowe) oraz wyników, która ona przyniesie w przyszłości (dodatkowy strumień pieniężny wynikający z większej sprzedaży w przyszłości
+                    i wynikających z niej przychodów). Istnieje wiele narządzi służących ocenie projektów inwestycyjnych pod kątem ich dochodowości i opłacalności. Istotne jest przy tym, aby właściwie interpretować uzyskane za ich pomocą wyniki, aby w
+                    ten sposób wspomagały one dany projekt inwestycyjny w fazie weryfikacji jego opłacalności i co za tym idzie decyzji o pojęciu bądź zaniechaniu dalszych działać w tym kierunku. Metody oceny efektywności inwestycji wykorzystywane przeze
+                    mnie:
+                </p>
+                <ol class="content__o-list">
+                    <li class="content__o-list__item">Metody proste (nieuwzględniające wartości pieniądza w czasie),</li>
+                    <li class="content__o-list__item">Metody złożone (uwzględniające wartość pieniądza w czasie).</li>
+                </ol>
+                <p class="content__paragraph--larger-top">W trakcie przygotowywania biznes planu/analiz oceny opłacalności współpracuję ze specjalistami z wielu dziedzin: finansów, marketingu, prawa, ochrony środowiska, w zależności od rodzaju przedsięwzięcia. Dzięki tej współpracy jestem w stanie
+                    zapewnić kompleksową obsługę niezbędną dla prawidłowej realizacji projektu.</p>
+            </div>
+            <div class="offer-content__text__calculation">
+                <h1 class="offer-content__title__calculation"><span class="multi-dot__calculation"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Wycena wartości przedsiębiorstw</h1>
+                <p class=".content__paragraph">Powody, dla których znajduje uzasadnienie przeprowadzenie wyceny wartości przedsiębiorstwa to miedzy innymi:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">Transakcje kupna - sprzedaży przedsiębiorstw;</li>
+                    <li class="content__list__item">Przekształcenia własnościowe, likwidacje;</li>
+                    <li class="content__list__item">Fuzje i przejęcia przedsiębiorstw;</li>
+                    <li class="content__list__item">Zarządzanie strategiczne w oparciu o kryterium kształtowanie wartości firmy;</li>
+                    <li class="content__list__item">Określenie wartości zabezpieczenia spłaty kredytów;</li>
+                    <li class="content__list__item">Aktualizacja wartości bilansowej aktywów (w tym wycena udziałów w spółkach).</li>
+                </ul>
+                <p class="content__paragraph--larger-top">W zależności od konkretnych potrzeb wartość tę określa się przy zastosowaniu różnych metod, takich jak: dochodowe, majątkowe, mieszane, porównawcze.</p>
+                <p class="content__paragraph--larger-top">Wyceny adresowane są przede wszystkim do menedżerów przedsiębiorstw wysokiego i średniego szczebla zarządzania, analityków z instytucji finansowych (banki, firmy ubezpieczeniowe, fundusze inwestycyjne), Skarbu Państwa w odniesieniu do
+                    procesów prywatyzacyjnych oraz indywidualnych podmiotów zainteresowanych działalnością inwestycyjną.</p>
+            </div>
+            <div class="offer-content__text__calculation__mark">
+                <h1 class="offer-content__title__calculation__mark"><span class="multi-dot__calculation__mark"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Wycena wartości marki</h1>
+                <p class=".content__paragraph">Liczne transakcje akwizycyjne przedsiębiorstw ostatnich 20 lat wskazały na wzrost znaczenia reputacji (marki) w procesie wyceny firm. Marka stanowi niematerialne aktywa przedsiębiorstw, które w wielu przypadkach decydują o ich całkowitej
+                    wartości. Podobnie jak w przypadku wycen wartości przedsiębiorstw, wartość marki określa się przy zastosowaniu różnych metod, takich jak: dochodowe, kosztowe, rynkowe.</p>
+                <p class=".content__paragraph">Korzyści z wyceny wartości marki wynikają z różnorodnych potrzeb zainteresowanych stron. Wycena marki znajduje miedzy innymi zastosowanie w:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">Celach sprawozdawczości finansowej – w przypadku gdy regulacje rachunkowości zezwalają na ujmowanie marek w bilansach spółek. Pozwala to między innymi na poprawę ocen sytuacji finansowej; </li>
+                    <li class="content__list__item">Celach podatkowych – w przypadku gdy przepisy podatkowe umożliwiają amortyzację wartości niematerialnych i prawnych. Pozwala to na zwiększenie efektów tarczy podatkowej; </li>
+                    <li class="content__list__item">Procesach fuzji i przejęć – zarówno w przypadku zakupów całych przedsiębiorstw, jak również podczas zakupów/przejęć określonych znaków firmowych, czy innych aktywów niematerialnych;</li>
+                    <li class="content__list__item">Przypadkach sprzedaży umów licencyjnych odnoszących się do korzystania z określonych praw do myśli, znaku itp.</li>
+                </ul>
+            </div>
+            <div class="offer-content__text__calculation__test">
+                <h1 class="offer-content__title__calculation__test"><span class="multi-dot__calculation__test"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Wycena wartości godziwej/test utraty wartości</h1>
+                <p class=".content__paragraph">Wycena wartości godziwej jest dokonywana na potrzeby sprawozdawczości finansowej prowadzonej zgodnie z Międzynarodowymi Standardami Rachunkowości (MSR nr 16) oraz polską Ustawą o Rachunkowości). Według MSR 16 „Rzeczowe aktywa trwałe” wartością
+                    godziwą jest kwota, za jaką na warunkach rynkowych składnik aktywów mógłby zostać wymieniony pomiędzy zainteresowanymi i dobrze poinformowanymi stronami transakcji. Taką samą definicję wartości godziwej należałoby również przypisać
+                    szacowaniu wartości godziwej na potrzeby polskiej sprawozdawczości. </p>
+                <p class="content__paragraph--larger-top">W ramach corocznych przeglądów ksiąg finansowych ze strony audytorów ma miejsce analiza wartości godziwej poszczególnych aktywów przedsiębiorstwa. Jej podstawą są regulacje zawarte w Ustawie o Rachunkowości oraz Międzynarodowych Standardach
+                    Rachunkowości, w tym przede wszystkim MSR 36 opisującym przesłanki utraty wartości aktywów. Zgodnie z zapisami tego standardu obowiązkowemu badaniu należy poddawać przynajmniej raz w roku takie aktywa jak:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">wartość firmy pochodząca z konsolidacji,</li>
+                    <li class="content__list__item">wartości niematerialne i prawne,</li>
+                    <li class="content__list__item">rzeczowe aktywa trwałe,</li>
+                    <li class="content__list__item">udziały / akcje w innych podmiotach wyceniane w cenie nabycia,</li>
+                    <li class="content__list__item">nieruchomości inwestycyjne wyceniane w cenie nabycia pomniejszonej o dotychczasowe umorzenia.</li>
+                </ul>
+                <p class="content__paragraph--larger-top">W związku z tym wszystkie przedsiębiorstwa, które sporządzają sprawozdania zgodnie z Międzynarodowymi Standardami Rachunkowości powinny zadbać o to by wszelkie aktywa wykazywane w bilansie ewidencjonowane były w wartości księgowej, która
+                    nie przekracza wartości odzyskiwalnej. W przypadku zaistnienia odwrotnej sytuacji, tj. takiej w której wartość bilansowa jest wyższa od wartości odzyskiwalnej, konieczne jest wprowadzenie odpisu aktualizującego wycenę. </p>
+            </div>
+            <div class="offer-content__text__calculation__investor">
+                <h1 class="offer-content__title__calculation__investor"><span class="multi-dot__calculation__investor"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Test Prywatnego Inwestora</h1>
+                <p class=".content__paragraph">Przedsiębiorstwa, które rozważają współpracę z podmiotami Skarbu Państwa lub organem państwowym powinny przed jej rozpoczęciem określić czy będzie ona dokonywana na zasadach rynkowych. Dodatkowo podmioty, których właścicielem są spółki
+                    z zaangażowaniem środków publicznych również powinny wykazywać, iż dokonywane transakcje mają charakter rynkowy. Jednakże, w jaki sposób określić czy warunki współpracy są ustalone na zasadach rynkowych? W znalezieniu odpowiedzi ma
+                    pomóc Test Prywatnego Inwestora (TPI) oraz Test Prywatnego Wierzyciela (TPW).</p>
+                <p class=".content__paragraph">Zakres analiz obejmujących Test Prywatnego Inwestora dla szczególnych przypadków udzielenia wsparcia finansowego określa Ustawa o prawie restrukturyzacyjnym z dnia 15 maja 2015 r. Zgodnie z wytycznymi, w celu stwierdzenia, czy wsparcie
+                    zostało udzielone na zasadach rynkowych, przeprowadzić należy szereg analiz, zawierających w szczególności:</p>
+                <ol class="content__o-list">
+                    <li class="content__o-list__item">Ocenę rynkowego charakteru wsparcia, o które wnioskuje przedsiębiorca,</li>
+                    <li class="content__o-list__item">Oszacowanie przewidywanego zwykłego zwrotu z inwestycji w postaci dywidend lub zysków z tytułu wzrostu wartości udziałów lub akcji albo w przypadku pożyczki w postaci kapitału wraz z oprocentowaniem,</li>
+                    <li class="content__o-list__item">Analizę rynkowej stopy zwrotu z inwestycji lub innego celu, na które zostanie udzielone wsparcie,</li>
+                    <li class="content__o-list__item">Opinię czy przedsiębiorca byłby w stanie uzyskać finansowanie na rynku kapitałowym,</li>
+                    <li class="content__o-list__item">Opinię w temacie czy spółka byłaby w stanie przetrwać na rynku bez udziału środków publicznych,</li>
+                    <li class="content__o-list__item">Opinię odnoszącą się do perspektyw gospodarczych spółki, uwzględniającą w szczególności sytuację w sektorze rynku, w którym przedsiębiorca działa, strukturalną nadwyżkę zdolności produkcyjnej w tym sektorze, poziom konkurencji na tym
+                        rynku,
+                    </li>
+                    <li class="content__o-list__item">Ocenę, czy wsparcie uzyskane na podstawie rozpatrywanego wniosku będzie wystarczające do osiągnięcia zakładanych w biznesplanie celów, czy też konieczne będzie późniejsze, dodatkowe wsparcie finansowe,</li>
+                    <li class="content__o-list__item">Wnioski końcowe wraz z opinią co do możliwości udzielenia wsparcia</li>
+                </ol>
+                <p class="content__paragraph--larger-top">Pozytywny wynik przeprowadzonego Testu Prywatnego Inwestora lub Testu Prywatnego Wierzyciela oznacza, że prywatny, rynkowy inwestor/wierzyciel kierujący się kryterium osiągnięcia zysku podjąłby decyzję o przeprowadzeniu transakcji.</p>
+            </div>
+            <div class="offer-content__text__calculation__due-diligence">
+                <h1 class="offer-content__title__calculation__due-diligence"><span class="multi-dot__calculation__due-diligence"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Due diligence</h1>
+                <p class="content__paragraph">Due diligence to proces gruntownej analizy funkcjonowania przedsiębiorstwa przy procesie przekształceń własnościowych przedsiębiorstw: prywatyzacji, transakcjach fuzji i przejęciach. Due diligence jest obiektywną analizą stanu przedsiębiorstwa
+                    mającego na celu określenie słabych i silnych stron oraz wskazania obszarów wystąpienia potencjalnych zagrożeń. </p>
+                <p class="content__paragraph">Proponowane przeze mnie usługi due diligence obejmują analizy: ekonomiczno – finansowe, prawne i środowiskowe.</p>
+            </div>
+            <div class="offer-content__text__calculation__transfers">
+                <h1 class="offer-content__title__calculation__transfers"><span class="multi-dot__calculation__transfers"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Ceny transferowe</h1>
+                <p class="content__paragraph">Termin „ceny transferowe” oznacza ceny stosowane we wszelkich transakcjach pomiędzy podmiotami powiązanymi, które nie odzwierciedlają rynkowej wartości transakcji, a mogą służyć do alokacji dochodu w grupie przedsiębiorstw powiązanych
+                    w celu zminimalizowania obciążenia podatkowego.</p>
+                <p class="content__paragraph">Wprowadzenie przez ustawodawcę do ustaw dotyczących podatku dochodowego (z dniem 1 stycznia 2001 r.) nowego obowiązku dokumentacyjnego odnośnie transakcji z podmiotami powiązanymi lub z rezydentami „rajów podatkowych” stwarza konieczność
+                    odpowiedniego ich przygotowania i prezentacji.</p>
+                <p class="content__paragraph">Przygotowana przez moich specjalistów dokumentacja podatkowa może spełniać następujące funkcje:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">Stwarzać możliwość zaprezentowania wszelkich okoliczności mających wpływ co do zasady na zawarcie oraz na wysokość wynagrodzenia określonego w tego typu transakcjach (uzasadnia poziom ceny);</li>
+                    <li class="content__list__item">Ułatwiać organom podatkowym oraz organom kontroli skarbowej zbadanie poziomu rynkowego cen ustalonych w ramach tego typu transakcji;</li>
+                    <li class="content__list__item">Chronić podatnika przed ewentualnym doszacowaniem dochodu oraz przed zastosowaniem sankcyjnej stawki podatkowej od kwoty doszacowanego dochodu;</li>
+                    <li class="content__list__item">Stanowić dowód w postępowaniu podatkowym (art. 180 § 1 Ordynacji podatkowej).</li>
+                </ul>
+                <p class="content__paragraph--larger-top">Moje usługi w tym zakresie adresuję do osób, na które spadł obowiązek przygotowania dokumentacji podatkowej oraz które planują zawarcie transakcji powodującej powstanie obowiązku posiadania takiej dokumentacji.</p>
+            </div>
+            <div class="offer-content__text__calculation__systems">
+                <h1 class="offer-content__title__calculation__systems"><span class="multi-dot__calculation__systems"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Systemy/kalkulatory rachunkowości zarządczej - controlling finansowy w oparciu o dashboard
+                    menedżerski
+                </h1>
+                <p class="content__paragraph">Dashboard jest specyficznym rodzajem raportu, na którym najważniejsze informacje i wskaźniki powiązane z celami firmy lub organizacji przedstawione są w formie wizualnej. Informacje te są umieszczone na jednym ekranie lub jednej kartce.
+                    Dashboard jest sposobem obrazowania i prezentacji danych (w tym danych biznesowych), a nie specyficznym rodzajem informacji lub technologii.</p>
+                <p class="content__paragraph"><strong>Wariant podstawowy:</strong></p>
+                <p class="content__paragraph">Analizy są sporządzane w oparciu o dwa sprawozdania finansowe: rachunek zysków i strat oraz bilans.</p>
+                <p class="content__paragraph">Analiza obejmuje podstawowe parametry ekonomiczno – finansowe w ujęciu 3 ostatnich zakończonych okresów obrachunkowych oraz bieżącego roku obrotowego przedsiębiorstwa. Wyniki bieżącego roku obrachunkowego są porównywane z odpowiednim okresem
+                    poprzedniego roku. Analiza w postaci wykresów jest uzupełniona podsumowaniem zarządczym.</p>
+                <p class="content__paragraph">Oferowany raport jest sporządzany w wersji elektronicznej w pliku pdf. Istnieje również możliwość implementacji aplikacji Qlik Sense Desktop w celu posiadania interaktywnego narzędzia analitycznego. Częstotliwość sporządzania – co miesiąc.</p>
+                <p class="content__paragraph">Obszary objęte analizą:</p>
+                <ol class="content__o-list">
+                    <li class="content__o-list__item">
+                        Przychody ze sprzedaży ogółem oraz w podziale na:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Przychody ze sprzedaży produktów/usług
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Przychody ze sprzedaży towarów i materiałów
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Pozostałe przychody operacyjne
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Przychody finansowe
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Koszty działalności w podziale na:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Koszty operacyjne
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Pozostałe koszty operacyjne
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Koszty finansowe
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Poziomy wyniku finansowego:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Wynik na sprzedaży
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Wynik operacyjny
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Wynik netto
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                EBITDA
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Marża handlowa
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Analiza w oparciu o aktywa i pasywa:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Poziom i rotacja zapasów
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Poziom i rotacja należności
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Poziom i rotacja zobowiązań bieżących operacyjnych
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Poziom gotówki
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Zadłużenie odsetkowe (kredyty, pożyczki, leasingi)
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Analiza wskaźnikowa
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Dynamiki zmian podstawowych wartości ekonomicznych
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Wskaźniki rentowności sprzedaży:
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                EBIT %
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                EBITDA%
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Netto%
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Marża handlowa (Marża I)%
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Wskaźniki efektywności inwestycji: ROE, ROA
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Wskaźnik konwersji gotówki (luka w finansowaniu)
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Cash flow
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Schemat cash flow z ostatniego pełnego okresu obrachunkowego
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Przepływy: operacyjne, inwestycyjne, finansowe
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Analiza gotówki: bieżący rok obrachunkowy vs okres poprzedni
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Analiza poszczególnych obszarów cash flow: bieżący rok obrachunkowy vs okres poprzedni
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+                <p class="content__paragraph"><strong>Wariant dedykowany:</strong></p>
+                <p class="content__paragraph">Analizy pogłębione w oparciu o księgową analitykę i potrzeby zarządcze klienta.</p>
+                <p class="content__paragraph">Obszary objęte analizą:</p>
+                <p class="content__paragraph">Analizy pogłębione w oparciu o księgową analitykę i potrzeby zarządcze klienta. Zakres analiz może przykładowo obejmować:</p>
+                <ol class="content__o-list">
+                    <li class="content__o-list__item">Sprzedaż wg działów, klientów, obszarów </li>
+                    <li class="content__o-list__item">Wyznaczenie progu rentowności działalności </li>
+                    <li class="content__o-list__item">Efektywność działalności wg MPK,</li>
+                    <li class="content__o-list__item">Zyskowność: klientów, obszarów </li>
+                    <li class="content__o-list__item">Analizy ilościowo – wartościowo, np. efektywność działów: produkcji, transportu </li>
+                    <li class="content__o-list__item">Windykacja należności </li>
+                    <li class="content__o-list__item">Analiza wrażliwości wyniku finansowego</li>
+                </ol>
+            </div>
+            <div class="offer-content__text__calculation__benchmark">
+                <h1 class="offer-content__title__calculation__benchmark"><span class="multi-dot__calculation__benchmark"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Benchmark analysis</h1>
+                <p class="content__paragraph">Celem Benchmark analysis jest konfrontacja efektywności ekonomicznej oraz modelu zarządzania finansowego przedsiębiorstwa w odniesieniu do wybranych firm z branży. Do celów Benchmark analysis analizowane firmy konkurencyjne zostają wskazywane
+                    przez Zleceniodawcę. Wybraną grupę można traktować jako reprezentatywną dla specyfiki działalności Zleceniodawcy.</p>
+                <p class="content__paragraph">Zakres standardowej Benchmark analysis obejmuje:</p>
+                <ol class="content__o-list">
+                    <li class="content__o-list__item">
+                        Sprzedaż produktów, usług, towarów i materiałów (bez uwzględniania zmiany stany produktów i kosztów na potrzeby własne):
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Osobno przychody ze sprzedaży produktów/usług
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Osobno przychody ze sprzedaży towarów i materiałów.
+                            </li>
+
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Rentowność działalności poprzez następujące wskaźniki:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Rentowność operacyjna (wynik operacyjny/przychody ze sprzedaży)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Rentowność netto (wynik netto/przychody ze sprzedaży)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                ROE - rentowność kapitałów własnych (zysk brutto/kapitały własne)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                ROI - rentowność majątku (EBITDA/aktywa)
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Sprawność zarządzania kapitałem obrotowym poprzez następujące wskaźniki:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Obrotowość należności operacyjnych, tj. średni czas spływu należności (w dniach)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Obrotowość zapasów, tj. średni czas zamrażania gotówki w zapasach (w dniach)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Obrotowość zobowiązań operacyjnych, tj. średni czas spłaty zobowiązań operacyjnych - czyli bieżących bez zobowiązań odsetkowych (w dniach)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Luka płynności, tj. różnica pomiędzy okresem zamrożenia gotówki (spływ należności, poziom zapasów) a terminem spłaty zobowiązań bieżących.
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Bezpieczeństwo finansowe poprzez następujące współczynniki:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Wskaźnik zadłużenia, tj. udział kapitałów obcych w finansowaniu działalności (zobowiązania i rezerwy/pasywa)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                skaźnik zadłużenia finansowego, tj. udział zobowiązań odsetkowych w kapitałach finansujących działalność (zobowiązania bankowe i inne finansowe/pasywa)
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Wydajność i efektywność pracy poprzez następujące współczynniki:
+                        <ol class="content__o-list--inner">
+                            <li class="content__o-list__item--inner">
+                                Wskaźnik wydajności (sprzedaż/koszty osobowe)
+                            </li>
+                            <li class="content__o-list__item--inner">
+                                Wskaźnik efektywność (wynik na sprzedaży/koszty osobowe)
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="content__o-list__item">
+                        Wartość przedsiębiorstwa z zastosowaniem metody dochodowej – mnożnik EBITDA
+                    </li>
+                </ol>
+            </div>
+            <div class="offer-content__text__calculation__management">
+                <h1 class="offer-content__title__calculation__management"><span class="multi-dot__calculation__management"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Interim Management</h1>
+                <p class="content__paragraph">Interim Management (Zarządzanie Czasowe) polega na zatrudnianiu zewnętrznych specjalistów na czas wykonania określonego zadania. Powyższa formuła wykorzystywania kadry kierowniczej to efektywne narzędzie zarządzania, które jest stosowane
+                    zarówno dużych korporacjach jak i w małych i średnich przedsiębiorstwach.</p>
+                <p class="content__paragraph">Korzystanie z powyższych usług umożliwia organizacjom odpowiednie reagowanie i szybki dostęp do właściwych ludzi w sytuacjach nagłych lub w przypadku braku odpowiedniego know - how.</p>
+                <p class="content__paragraph">Do dodatkowych zalet takich rozwiązań można zaliczyć:</p>
+                <ul class="content__list">
+                    <li class="content__list">Brak umowy o pracę, która generuje dodatkowe koszty osobowe (ZUS);</li>
+                    <li class="content__list">Brak wynagrodzenia za dni urlopu i zwolnień;</li>
+                    <li class="content__list">Wynagrodzenie uzależnione od rzeczywistych dni roboczych bądź efektów;</li>
+                    <li class="content__list">Brak kosztów dodatkowych (szkolenia, odprawy po zakończeniu zadania itp.). </li>
+                </ul>
+                <p class="content__paragraph--larger-top">
+                    Jako Interim Menedżer wykorzystuję moje doświadczenie i kontakty ze specjalistami z różnych sfer biznesowych. Moje usługi w tym zakresie adresuję przede wszystkim do właścicieli małych i średnich firm, którzy planują realizację następujących zagadnień:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list">Opracowanie i wdrożenie strategii rozwoju;</li>
+                    <li class="content__list">Uruchomianie przedsięwzięcia biznesowego; </li>
+                    <li class="content__list">Montaż finansowy nowej/obecnej działalności; </li>
+                    <li class="content__list">Zarządzanie projektami.</li>
+                </ul>
+            </div>
+            <div class="offer-content__text__calculation__training">
+                <h1 class="offer-content__title__calculation__training"><span class="multi-dot__calculation__training"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Szkolenia</h1>
+                <p class="content__paragraph">W ramach ścisłej współpracy z Symulator-Biznesu Spółka Jawna, będącej twórcą symulacji komputerowych, oferuję szkolenia o szeroko rozumianej tematyce biznesowej. Główne zagadnienia to:</p>
+                <ul class="content__list">
+                    <li class="content__list">Finanse dla niefinansistów;</li>
+                    <li class="content__list">Zarządzanie strategiczne;</li>
+                    <li class="content__list">Akademia Marketingu;</li>
+                    <li class="content__list">Negocjacje w biznesie.</li>
+                </ul>
+                <p class="content__paragraph--larger-top">Kompleksowość rozwiązań dydaktycznych zawartych w autorskich symulacjach firmy Symulator-Biznesu pozwalają na dowolne modelowanie treści szkoleń.</p>
+            </div>
+        </section>
+    </div>
     <!-- Doświadczenie -->
-    <section class="experience"></section>
+
+    <div class=" container ">
+        <section class="experience main-section " id="experience ">
+            <div class="experience__header main-section__header ">
+                <img class="experience__header__image main-section__image " src="./images/sections-icons/3.doswiadczenie.png " alt="O Firmie ">
+                <span class="experience__header__text main-section__text ">Doświadczenie</span>
+            </div>
+            <div class="experience-content__text__education">
+                <h1 class="experience-content__title__education"><span class="multi-dot__experience__education"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Wykształcenie</h1>
+                <p class="content__paragraph--larger-top"></p>
+                <ul class="content__list">
+                    <li class="content__list">Magister Ekonomii, Wydział Zarządzania, Kierunek Finanse i Bankowość Uniwersytet Gdański, 1998 </li>
+                    <li class="content__list">Humboldt Universitat zu Berlin – roczne stypendium naukowe DAAD na Wydziale Zarządzania, 1995/96. </li>
+                    <li class="content__list">Certyfikowany konsultant LGPP FMCP (Local Government Partnership Program Financial Management Certification Program) – USAID, Warszawa 2000</li>
+                    <li class="content__list">Cykl szkoleń LGPP, 1999 </li>
+                </ul>
+            </div>
+            <div class="experience-content__text__courses">
+                <h1 class="experience-content__title__courses"><span class="multi-dot__experience__courses"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Kursy</h1>
+                <ul class="content__list">
+                    <li class="content__list">Studium wyceny nieruchomości, Gdańsk 2007 </li>
+                    <li class="content__list">Studium podyplomowe: Kształtowanie Wartości Firm, Gdańska Akademia Bankowa, 2001 </li>
+                    <li class="content__list">Nowoczesne Zarządzanie Finansowe, Francuski Instytut Zarządzania, 1998  </li>
+                </ul>
+            </div>
+            <div class="experience-content__text__work-experience">
+                <h1 class="experience-content__title__work-experience"><span class="multi-dot__experience__work-experience"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Doświadczenie zawodowe</h1>
+                <ul class="content__list">
+                    <li class="content__list">Ekspert NCBiR i PARP 08.2018</li>
+                    <li class="content__list">Doradca Zarządu ds. finansowych Kiedrowscy S.A. 09.2018 – 09.2019 - obecnie</li>
+                    <li class="content__list">Analityk finansowy, Doradca Zarządu ds. finansowych EDoradca, 08.2016 - obecnie</li>
+                    <li class="content__list">Dyrektor finansowy/ członek Zarządu MODE S.A. 03.2014 – 03.2015</li>
+                    <li class="content__list">Doradca Zarządu ds. finansowych Energia Projektowanie Group Sp. z o.o. 2013 - 2019</li>
+                    <li class="content__list">Własna działalność doradcza WK Consulting, 2006 - obecnie</li>
+                    <li class="content__list">Konsultant, DORADCA Consultants Ltd., 2000-2006</li>
+                    <li class="content__list">Młodszy konsultant, DORADCA Consultants Ltd., 1997-1999</li>
+                </ul>
+            </div>
+            <div class="experience-content__text__clients">
+                <h1 class="experience-content__title__clients"><span class="multi-dot__experience__clients"><img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down"></span>Klienci</h1>
+                <p class="content__paragraph">Do grona moich najważniejszych klientów, zarówno podczas prac w strukturze DORADCA Consultants Ltd., jak i własnej działalności WK Consulting należą:
+                </p>
+                <p class="content__paragraph--large">Doradztwo na potrzeby transakcyjne lub prywatyzacyjne:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list__item">Ministerstwo Skarbu Państwa, Program Prywatyzacji Przedsiębiorstw Komunalnych– prywatyzacja 150 przedsiębiorstw; prowadzenie projektu dla 12 firm w Lubelskiem</li>
+                    <li class="content__list__item">Ministerstwo Skarbu Państwa, Program Wspomagania Inicjatyw Prywatyzacyjnych, 21 przedsiębiorstw z województw kujawsko-pomorskiego, wielkopolskiego i lubuskiego, analizy ekonomiczne i finansowe dla 4 firm, opracowanie ścieżek prywatyzacji</li>
+                    <li class="content__list__item">Ministerstwo Skarbu Państwa, Program Wspomagania Inicjatyw Prywatyzacyjnych, 27 przedsiębiorstw z Warmii i Mazur i Mazowsza, opiekun 4 przedsiębiorstw, analizy ekonomiczne i finansowe, wyceny</li>
+                    <li class="content__list__item">FADO SA Gdańsk</li>
+                    <li class="content__list__item">Elastofirm BV Baarn Holandia</li>
+                    <li class="content__list__item">Edoradca Tczew</li>
+                </ul>
+                <p class="content__paragraph--large">Szacowanie wartości przedsiębiorstw, marek i innych aktywów, biznes plany, wnioski kredytowe:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list__item">EASTEND SPÓŁKA Z O.O. S.K. (handel online)</li>
+                    <li class="content__list__item">Betor Sp. z o.o. (produkcja i handel produktami budowlanymi)</li>
+                    <li class="content__list__item">Gopol Sp. z o.o., (narzędzia dla przemysłu drzewnego i meblarskiego)</li>
+                    <li class="content__list__item">Enerbio Sp. z o.o. oraz OZE 11 Sp. z o.o. (biogazownie)</li>
+                    <li class="content__list__item">ESTU Invest Sp. z o.o. (wynajem nieruchomości)</li>
+                    <li class="content__list__item">Konsultacje Inwestycyjne Bożena Hoffman (wynajem nieruchomości)</li>
+                    <li class="content__list__item">HOFFMAN & SIGL Sp. z o.o. (wynajem nieruchomości)</li>
+                    <li class="content__list__item">Eurolinks S.A. SK (consulting)</li>
+                    <li class="content__list__item">Soltec Services Sp. z o.o. (przemysł stoczniowy)</li>
+                    <li class="content__list__item">Soltec Sp. z o.o. (przemysł stoczniowy)</li>
+                    <li class="content__list__item">Montex Shipyard Dębowski, Wasiołek Sp. J. (przemysł stoczniowy)</li>
+                    <li class="content__list__item">VGL Sp. z o.o. (logistyka)</li>
+                    <li class="content__list__item">Platan Sp. z o.o. (sprzęt telekomunikacyjny)</li>
+                    <li class="content__list__item">Katedra Inżynierii Biomedycznej Wydział Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej</li>
+                    <li class="content__list__item">Kiedrowscy S.A. (piekarnia)</li>
+                    <li class="content__list__item">ETOS S.A. (handle odzieżą – marka DIVERSE)</li>
+                    <li class="content__list__item">Demuth Service spółka z ograniczoną odpowiedzialnością Immobilia S.K.A. (wynajem nieruchomości)</li>
+                    <li class="content__list__item">EDORADCA Sp. z o.o. SK (doradztwo dotacyjne)</li>
+                    <li class="content__list__item">SARIUS sp. z o.o. (handel narzędziami)</li>
+                    <li class="content__list__item">GEO Sp. z o.o. (wynajem nieruchomości)</li>
+                    <li class="content__list__item">WW Elektronik S.C. (handel elektroniką)</li>
+                    <li class="content__list__item">PMU Sp. z o.o. (produkcja urządzeń energetycznych)</li>
+                    <li class="content__list__item">AIC S.A. – (produkcja urządzeń energetycznych)</li>
+                    <li class="content__list__item">INTRALL POLSKA Sp. z o.o. (przemysł samochodowy) </li>
+                    <li class="content__list__item">MK Cafe (producent artykułów spożywczych)</li>
+                    <li class="content__list__item">POLMED SA Starogard Gdański (sieć przychodni medycznych)</li>
+                    <li class="content__list__item">COVAL Sp. z o.o. Gdynia (dawniej SARIUS sp. z o.o., producent i dystrybutor narzędzi) </li>
+                    <li class="content__list__item">ENERGA S.A., spółka Zakład Budownictwa Energetycznego Sp. z o.o. Słupsk</li>
+                    <li class="content__list__item">AIC S.A. Gdynia (projektant i producent rozwiązań z zakresu wymiany ciepła)</li>
+                    <li class="content__list__item">Platan Sp. z o.o. Sopot (producent central telefonicznych oraz zintegrowanych systemów alarmowania)</li>
+                    <li class="content__list__item">INTRALL POLSKA Sp. z o.o. (producent samochodów pod marką Lublin)</li>
+                    <li class="content__list__item">GEO Sp. z o.o. Gdańsk (marka TOP Shopping, meblowe centra handlowe)</li>
+                    <li class="content__list__item">KENT Sp. z o.o. (marka odzieżowa Emanuel Berg)</li>
+                    <li class="content__list__item">ETOS S.A. Gdańsk (marka odzieżowa DIVERSE)</li>
+                    <li class="content__list__item">WW Elektronik S.C. Sopot (dystrybutor elektroniki)</li>
+                    <li class="content__list__item">EUROTEL S.A. Gdańsk (sprzedaż usług telefonii komórkowej)</li>
+                    <li class="content__list__item">Łączpol Sp. z o.o. Gdańsk (budownictwo infrastruktury łączności)</li>
+                    <li class="content__list__item">MK Cafe (producent kawy)</li>
+                    <li class="content__list__item">OPERATOR ARP Sp. z o.o., spółka EUROMEDICUS Sp. z o.o. Gdynia (usługi medyczne)</li>
+                    <li class="content__list__item">NAFTA Polska S.A., spółka ZCH Organika Sarzyna S.A. (branża chemiczna) </li>
+                    <li class="content__list__item">SH Goplana Sp. z o.o. Reda (dystrybutor słodyczy)</li>
+                    <li class="content__list__item">BillBank Gdynia (usługi internetowe i IT)</li>
+                    <li class="content__list__item">BENU S.C. Gdańsk (producent folii strech)</li>
+                    <li class="content__list__item">Laurin Seafood Lębork (przetwórstwo ryb)</li>
+                </ul>
+                <p class="content__paragraph--large">Dokumentacja cen transferowych, testy utraty wartości:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list__item">VIAMIND Sp. z o.o. (sprzęt i usługi telekomunikacyjne)</li>
+                    <li class="content__list__item">EUROTEL S.A. (sprzęt i usługi telekomunikacyjne)</li>
+                    <li class="content__list__item">POLMED (sieć przychodni medycznych)</li>
+                    <li class="content__list__item">NEWD Sp. z o.o. (produkcja energii OZE)</li>
+                    <li class="content__list__item">MOWTA Sp. z o.o. (handel)</li>
+                    <li class="content__list__item">Siłownie Wiatrowe S.A. (produkcja energii OZE)</li>
+                    <li class="content__list__item">GRUPA KAPITAŁOWA OVO (nieruchomości)</li>
+                    <li class="content__list__item">AVIDES PL Sp. z o.o. (handel online)</li>
+                </ul>
+                <p class="content__paragraph--large">Doradztwo inwestycyjne i operacyjne:
+                </p>
+                <ul class="content__list">
+                    <li class="content__list__item">Agencja Rozwoju Pomorza S.A.</li>
+                    <li class="content__list__item">Fundacja Towarzystwo Ekonomiczno-Społeczne Warszawa; Projekt Fabryka Innowacji </li>
+                    <li class="content__list__item">Firma Handlowa Sarius Artur Mańczak Gdynia</li>
+                    <li class="content__list__item">Fachman sp. z o.o. Gdynia</li>
+                    <li class="content__list__item">Energia Projektowanie Group Sp. z o.o.)</li>
+                    <li class="content__list__item">Edoradca Tczew</li>
+                </ul>
+                <p class="content__paragraph--large">Szkolenia:</p>
+                <ul class="content__list">
+                    <li class="content__list__item">Zielony Hotel – szkolenia otwarte, finanse dla niefinansistów działalności hotelarskiej</li>
+                    <li class="content__list__item">ABC Przedsiębiorcy – szkolenie finanse w placówce handlowej, Eurocash S.A.</li>
+                    <li class="content__list__item">Podstawy rachunkowości i finansów dla pracowników pionów handlowych. Gra symulacyjna. Polkomtel S.A.</li>
+                    <li class="content__list__item">Akademia marketingu. Finanse w usługach telekomunikacyjnych. Gra symulacyjna. Telekomunikacja Polska S.A.</li>
+                    <li class="content__list__item">Zaawansowana analiza finansowa – szkolenie dla doradców biznesowych klienta. Gra symulacyjna. GE Money Bank Polska</li>
+                    <li class="content__list__item">Finansowy aspekt działań marketingowych. Gra symulacyjna. ZCH Rokita S.A.</li>
+                    <li class="content__list__item">Finanse w zarządzaniu placówką handlową. Gra symulacyjna. T-Mobile Polska. PTC S.A.</li>
+                    <li class="content__list__item">Zwiększanie szans sprzedażowych - Lead management. T-Mobile Polska. PTC S.A.</li>
+                    <li class="content__list__item">Ekonomiczny Wymiar Działań Operacyjnych Przedsiębiorstwa. HARPER HYGIENICS S.A</li>
+                    <li class="content__list__item">Menadżer Kompletny, Finanse dla niefinansistów. Gra symulacyjna. IMPEL S.A.</li>
+                    <li class="content__list__item">Gra strategiczna – 4 RMR (right marketing rules). Finanse dla nie finansistów. MARS Polska Sp. z o.o.</li>
+                    <li class="content__list__item">Finanse dla kadry menadżerskiej. Sealand Logistics Sp. z o.o. Gdynia</li>
+                    <li class="content__list__item">Zarządzanie finansami osobistymi. Dobre praktyki. VOLVO Polska Sp. z o.o.</li>
+                    <li class="content__list__item">Zarządzanie przedsiębiorstwem w warunkach Konkurencyjnych. Finanse dla kadry kierownicze – Gra symulacyjna, LPP S.A. Gdańsk</li>
+                    <li class="content__list__item">Menadżer Kompletny, Finanse dla niefinansistów. Gra symulacyjna. Leroy Merlin.</li>
+                    <li class="content__list__item">Studia podyplomowe MBA – Finanse w marketingu. Gra symulacyjna. Polska Akademia Nauk Warszawa</li>
+                    <li class="content__list__item">Studia podyplomowe MBA – Finanse w marketingu. Gra symulacyjna. Szkoła Główna Handlowa W-wa</li>
+                    <li class="content__list__item">Studia podyplomowe MBA – Przywódca Strategiczny „Strategiczna Symulacja Rynkowa” Politechnika Gdańska</li>
+                    <li class="content__list__item">Studia Podyplomowe MBA. Menedżerska gra symulacyjna. Wyższa Szkoła Bankowa Wrocław</li>
+                    <li class="content__list__item">Studia Podyplomowe MBA. Menedżerska gra symulacyjna. Wyższa Szkoła Bankowa Poznań</li>
+                    <li class="content__list__item">Studia Podyplomowe MBA. Menedżerska gra symulacyjna. Wyższa Szkoła Bankowa Gdańsk</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
     <!-- Cooperation -->
-    <section class="coopertion"></section>
+
+    <div class="container ">
+        <section class="cooperation main-section " id="cooperation ">
+            <div class="cooperation__header main-section__header ">
+                <img class="cooperation__header__image main-section__image " src="./images/sections-icons/4.wspolpraca1.png " alt="O Firmie ">
+                <span class="cooperation__header__text main-section__text ">Współpraca</span>
+            </div>
+            <p class="content__paragraph--larger-top">Możliwość świadczenia kompleksowych usług doradczych zapewniam dzięki stałej współpracy ze sprawdzonym gronem specjalistów, wysokiej klasy ekspertów w swojej dziedzinie.</p>
+            <p class="content__paragraph">Należą do nich:</p>
+            <div class="cooperation__company__card--main">
+                <p class="content__paragraph--large">1. W zakresie zagadnień księgowych i audytorskich:</p>
+                <div class="cooperation__company__card--text">
+                    <p class="content__paragraph">BFK Benefit Group Sp. z o.o.</p>
+                    <p class="content__paragraph">ul. Świętojańska 55/3A ; 81-391 Gdynia</p>
+                    <a class="cooperation__company__card--link" href="https://www.benefitgroup.pl">www.benefitgroup.pl</a>
+                </div>
+                <p class="content__paragraph--large">2. W zakresie zagadnień prawnych:</p>
+                <div class="cooperation__company__card--text">
+                    <p class="content__paragraph">Rochowicz & Trzeciak Adwokacja Spółka Partnerska</p>
+                    <p class="content__paragraph">ul. Świętojańska 55/10; 81-391 Gdynia</p>
+                    <a class="cooperation__company__card--link" href="https://www.prr.pl">www.benefitgroup.pl</a>
+                </div>
+                <p class="content__paragraph--large">3. Szkolenia:</p>
+                <div class="cooperation__company__card--text">
+                    <p class="content__paragraph">Symulator-Biznesu Spółka Jawna</p>
+                    <p class="content__paragraph">ul. Hubala 12; 80-289 Gdańsk</p>
+                    <a class="cooperation__company__card--link" href="http://www.symulator-biznesu.pl">www www.symulator-biznesu.pl</a>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- Kontakt -->
-    <section class="contact"></section>
+
+    <div class=" container ">
+        <section class="contact main-section " id="contact ">
+            <div class="contact__header main-section__header ">
+                <img class="contact__header__image main-section__image " src="./images/sections-icons/5.Kontakt.png " alt="O Firmie ">
+                <span class="contact__header__text main-section__text ">Kontakt</span>
+            </div>
+        </section>
+    </div>
     <!-- Footer -->
-    <footer class="bottom"></footer>
+    <footer class="footer__bottom ">
+        <p>&copy; 2020 WK Consulting</p>
+    </footer>
+    <script src="./scripts/index.js "></script>
 </body>
 
 </html>

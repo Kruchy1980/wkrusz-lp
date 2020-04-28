@@ -1,0 +1,317 @@
+/* 1.Business */
+
+.offer-content__title__business {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__business {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__business--open {
+    height: auto;
+}
+
+
+/* Calculation */
+
+.offer-content__title__calculation {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation--open {
+    height: auto;
+}
+
+
+/* Calculation--mark */
+
+.offer-content__title__calculation__mark {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__mark {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__mark--open {
+    height: auto;
+}
+
+
+/* Calculation--test */
+
+.offer-content__title__calculation__test {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__test {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__test--open {
+    height: auto;
+}
+
+
+/* Investor-test */
+
+.offer-content__title__calculation__investor {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__investor {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__investor--open {
+    height: auto;
+}
+
+
+/* Due-diligence */
+
+.offer-content__title__calculation__due-diligence {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__due-diligence {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__due-diligence--open {
+    height: auto;
+}
+
+
+/* Transfer prices */
+
+.offer-content__title__calculation__transfers {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__transfers {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__transfers--open {
+    height: auto;
+}
+
+
+/* Systems */
+
+.offer-content__title__calculation__systems {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__systems {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__systems--open {
+    height: auto;
+}
+
+
+/* Benchmark Analysis*/
+
+.offer-content__title__calculation__benchmark {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__benchmark {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__benchmark--open {
+    height: auto;
+}
+
+
+/* Interim Management*/
+
+.offer-content__title__calculation__management {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__management {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__management--open {
+    height: auto;
+}
+
+
+/* Training*/
+
+.offer-content__title__calculation__training {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+}
+
+.offer-content__text__calculation__training {
+    height: 60px;
+    overflow: hidden;
+}
+
+.offer-content__text__calculation__training--open {
+    height: auto;
+}
