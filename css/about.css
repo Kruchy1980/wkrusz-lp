@@ -18,6 +18,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .about-content__text__history {
@@ -51,6 +52,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .about-content__text__description {

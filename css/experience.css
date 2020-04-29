@@ -15,6 +15,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .experience-content__text__education {
@@ -44,6 +45,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .experience-content__text__courses {
@@ -73,6 +75,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .experience-content__text__work-experience {
@@ -102,6 +105,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
 }
 
 .experience-content__text__clients {
