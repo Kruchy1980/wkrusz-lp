@@ -68,3 +68,13 @@
 .about-content__text__description--open {
     height: auto;
 }
+
+.about__section__content__image {
+    display: inline-block;
+}
+
+.about__section__content__signature {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

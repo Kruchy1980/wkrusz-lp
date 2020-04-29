@@ -1,11 +1,19 @@
 /* Containers */
 
 .container {
-    max-width: 1400px;
-    margin: 20px auto;
+    /* height: 100vh; */
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .container__inner {
     max-width: 900px;
     margin: 0 auto;
+}
+
+.container--small {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+    height: 720px;
 }
