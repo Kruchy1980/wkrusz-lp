@@ -28,7 +28,9 @@
     <!-- Experience -->
     <link rel="stylesheet" href="./css/experience.css">
     <!-- Cards -->
-    <link rel="stylesheet" href="./css/cards.css">
+    <!-- <link rel="stylesheet" href="./css/cards.css"> -->
+    <!-- Contact -->
+    <link rel="stylesheet" href="./css/contact-form.css">
 </head>
 
 <body>
@@ -115,9 +117,10 @@
                 <p class="content__paragraph--larger-top">
                     Serdecznie zapraszam do współpracy
                 </p>
-                <frame src="./images/main-photo/wojciech.jpg" alt=" Wojciech Kruszyński" title="Wojciech Krusyński">
-                    pic
-                </frame>
+                <figure class="about__section__content__image">
+                    <img src="./images/main-photo/wojciech.jpg" alt="Wojciech Kruszyński">
+                    <figcaption class="about__section__content__signature">Wojciech Kruszyński</figcaption>
+                </figure>
             </div>
         </section>
     </div>
@@ -700,6 +703,37 @@
                 <img class="contact__header__image main-section__image " src="./images/sections-icons/5.Kontakt.png " alt="O Firmie ">
                 <span class="contact__header__text main-section__text ">Kontakt</span>
             </div>
+            <form action="mailto:kontakt@restauracja.pl" class="contact-form">
+                <div class="container container--small">
+
+                    <div class="contact-form__info">
+                        <div class="contact-form__info-item">
+                            <img src="./images/contact-icons/envelope.svg" alt="E-mail" class="contact-form__info-icon">
+                            <a href="mailto:wkruszynski@wkconsulting.com.pl" class="contact-form__info-link">wkruszynski@wkconsulting.com.pl</a>
+                        </div>
+                        <div class="contact-form__info-item">
+                            <img src="./images/contact-icons/phone.svg" alt="Mobile" class="contact-form__info-icon">
+                            <a href="tel:691-912-285" class="contact-form__info-link">691-912-285</a>
+                        </div>
+                    </div>
+                    <div class="contact-form__description">
+                        <div class="contact__form__info__address--box">
+                            <p class="content paragraph">Adres do korespondencji:</p>
+                            <p class="content__paragraph--larger-top">WK Consulting </p>
+                            <p class="content paragraph">ul. Prezydenta Lecha Kaczyńskiego 32 c/14</p>
+                            <p class="content paragraph">80 – 364 Gdańsk</p>
+                            <p class="content__paragraph--larger-top">NIP 593 107 00 11</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form__fields">
+                        <input type="text" name="name" class="contact-form__field" placeholder="Podaj Imię i Nazwisko" required>
+                        <input type="email" name="e-mail" class="contact-form__field" placeholder="Podaj swój e-mail" required>
+                        <textarea class="contact-form__field-message" name="message" rows="10" placeholder="Podaj treść wiadomości" required></textarea>
+                    </div>
+                    <button class="contact-form__submit__button">Wyślij</button>
+                </div>
+            </form>
         </section>
     </div>
     <!-- Footer -->
