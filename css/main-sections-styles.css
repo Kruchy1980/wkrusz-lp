@@ -63,6 +63,7 @@
     .main-section__image {
         width: 70px;
         height: 70px;
+        margin-top: 10px;
     }
     .main-section__text {
         font-size: 2em;
