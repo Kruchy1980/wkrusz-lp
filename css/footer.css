@@ -1,6 +1,6 @@
 .footer__main {
-    margin: 0 auto;
-    display: block;
-    padding: 10px 0;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
     text-align: center;
 }
