@@ -1,11 +1,16 @@
 /* Containers */
 
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 20px auto;
 }
 
 .container__inner {
     max-width: 900px;
+    margin: 0 auto;
+}
+
+.container--small {
+    max-width: 800px;
     margin: 0 auto;
 }
