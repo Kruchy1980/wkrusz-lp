@@ -1,6 +1,7 @@
 /* 1.Business */
 
-.offer-content__title__business {
+
+/* .offer-content__title__business {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -16,7 +17,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__business {
     height: 60px;
@@ -30,7 +31,8 @@
 
 /* Calculation */
 
-.offer-content__title__calculation {
+
+/* .offer-content__title__calculation {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -46,7 +48,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation {
     height: 60px;
@@ -60,7 +62,8 @@
 
 /* Calculation--mark */
 
-.offer-content__title__calculation__mark {
+
+/* .offer-content__title__calculation__mark {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -76,7 +79,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__mark {
     height: 60px;
@@ -90,7 +93,8 @@
 
 /* Calculation--test */
 
-.offer-content__title__calculation__test {
+
+/* .offer-content__title__calculation__test {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -106,7 +110,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__test {
     height: 60px;
@@ -120,7 +124,8 @@
 
 /* Investor-test */
 
-.offer-content__title__calculation__investor {
+
+/* .offer-content__title__calculation__investor {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -136,7 +141,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__investor {
     height: 60px;
@@ -150,7 +155,8 @@
 
 /* Due-diligence */
 
-.offer-content__title__calculation__due-diligence {
+
+/* .offer-content__title__calculation__due-diligence {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -166,7 +172,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__due-diligence {
     height: 60px;
@@ -180,7 +186,8 @@
 
 /* Transfer prices */
 
-.offer-content__title__calculation__transfers {
+
+/* .offer-content__title__calculation__transfers {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -196,7 +203,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__transfers {
     height: 60px;
@@ -210,7 +217,8 @@
 
 /* Systems */
 
-.offer-content__title__calculation__systems {
+
+/* .offer-content__title__calculation__systems {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -226,7 +234,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__systems {
     height: 60px;
@@ -240,7 +248,8 @@
 
 /* Benchmark Analysis*/
 
-.offer-content__title__calculation__benchmark {
+
+/* .offer-content__title__calculation__benchmark {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -256,7 +265,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__benchmark {
     height: 60px;
@@ -270,7 +279,8 @@
 
 /* Interim Management*/
 
-.offer-content__title__calculation__management {
+
+/* .offer-content__title__calculation__management {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -286,7 +296,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__management {
     height: 60px;
@@ -300,7 +310,8 @@
 
 /* Training*/
 
-.offer-content__title__calculation__training {
+
+/* .offer-content__title__calculation__training {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -316,7 +327,7 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px 1px #111;
     font-size: 1em;
-}
+} */
 
 .offer-content__text__calculation__training {
     height: 60px;
