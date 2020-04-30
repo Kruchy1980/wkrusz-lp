@@ -5,14 +5,30 @@
 }
 
 
-/*  Main sections sub-titles */
+/* Sections title */
 
-
-/* .main__title {
-    display: flex;
-    align-items: center;
+.content__title {
+    display: inline-flex;
     justify-content: center;
-} */
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 20px 0;
+    color: #000;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    max-width: 65vw;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px 1px #111;
+    font-size: 1em;
+}
+
+
+/*  Main sections sub-titles */
 
 
 /* Header */
