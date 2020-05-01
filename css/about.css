@@ -23,15 +23,17 @@ font-size: 1em;
 } */
 
 .about-content__text__history {
-    height: 60px;
-    /* overflow: hidden; */
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
-.box__about__list__main {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
+@media(min-width: 800px) {
+    .about-content__text__history {
+        margin-top: 80px;
+    }
+    .box__about__list__main {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
@@ -55,6 +57,9 @@ font-size: 1em;
 
 .about__section__content__image--box {
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -62,7 +67,7 @@ font-size: 1em;
 }
 
 .about__section__content__signature {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     padding: 10px;
@@ -71,6 +76,8 @@ font-size: 1em;
 }
 
 .about__section__content__image {
+    width: 150px;
+    height: 200px;
     border-radius: 10px 10px 0 0;
 }
 
