@@ -30,8 +30,8 @@ font-size: 1em;
 
 .box__about__list__main {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    /* flex-direction: column; */
+    justify-content: space-between;
 }
 
 
