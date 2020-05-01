@@ -24,16 +24,25 @@ font-size: 1em;
 
 .about-content__text__history {
     height: 60px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    margin-top: 60px;
 }
 
-.about-content__text__history--open {
-    height: auto;
+.box__about__list__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.active {
+
+/* .about-content__text__history--open {
     height: auto;
-}
+} */
+
+
+/* .active {
+    height: auto;
+} */
 
 
 /* .about__section__content__image--box {

@@ -1,23 +1,23 @@
-// HIstory
-(() => {
-    const rollerHistory = document.querySelector('.about-content__title__history');
-    const sectionHeightHistory = document.querySelector('.about-content__text__history');
-    const dotsHistory = document.querySelector('.multi-dot__history');
+// // HIstory
+// (() => {
+//     const rollerHistory = document.querySelector('.about-content__title__history');
+//     const sectionHeightHistory = document.querySelector('.about-content__text__history');
+//     const dotsHistory = document.querySelector('.multi-dot__history');
 
-    const showHidden = () => {
-        sectionHeightHistory.classList.toggle('about-content__text__history--open');
-        if (dotsHistory.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
-            dotsHistory.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
-        } else {
-            dotsHistory.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
-        }
-        if (sectionHeightHistory.classList.contains('active')) {
-            sectionHeightHistory.classList.toggle('active');
-            sectionHeightHistory.classList.toggle('about-content__text__history--open');
-        }
-    }
-    rollerHistory.addEventListener('click', showHidden);
-})();
+//     const showHidden = () => {
+//         sectionHeightHistory.classList.toggle('about-content__text__history--open');
+//         if (dotsHistory.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
+//             dotsHistory.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
+//         } else {
+//             dotsHistory.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
+//         }
+//         if (sectionHeightHistory.classList.contains('active')) {
+//             sectionHeightHistory.classList.toggle('active');
+//             sectionHeightHistory.classList.toggle('about-content__text__history--open');
+//         }
+//     }
+//     rollerHistory.addEventListener('click', showHidden);
+// })();
 // // Description
 // (() => {
 //     const rollerDescription = document.querySelector('.about-content__title__description');
