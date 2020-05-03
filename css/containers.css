@@ -18,3 +18,14 @@
     padding: 5px;
     height: 700px;
 }
+
+.container__small--dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    background-color: #777;
+    color: #eee;
+    height: 80vh;
+}
