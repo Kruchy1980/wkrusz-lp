@@ -54,15 +54,18 @@
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
+    align-items: center;
 }
 
 
 /* Inner logo text */
 
-
-/* .main-navigation__inner__logo-text {
+.main-navigation__inner__logo-text {
     padding: 5px;
-} */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 
 /* Inner navigation logo text top */

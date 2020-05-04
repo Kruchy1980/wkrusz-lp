@@ -1,7 +1,23 @@
-/* Main modal box */
+/* Modal box styles */
 
-.modal__main__box {
-    width: 100%;
-    height: 100%;
+.modal__box--background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
     backgrond-color: #44444480;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal__box--main {
+    backgrond-color: #fff;
+    width: 75%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
