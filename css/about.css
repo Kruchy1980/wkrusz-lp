@@ -1,80 +1,45 @@
 /* About content title history*/
 
 
-/* History */
-
-.about-content__title__history {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 65vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+/* History And Description */
 
 .about-content__text__history {
-    height: 60px;
-    overflow: hidden;
+    margin-top: 80px;
 }
 
-.about-content__text__history--open {
-    height: auto;
+@media(min-width: 800px) {
+    .about-content__text__history {
+        margin-top: 80px;
+    }
+    .box__about__list__main {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-.active {
-    height: auto;
-}
-
-
-/* Description */
-
-.about-content__title__description {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 65vw;
-    padding: 3px 10px;
+.about__section__content__image--box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    margin: 20px;
+    padding: 20px;
     border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
-
-.about-content__text__description {
-    height: 60px;
-    overflow: hidden;
-}
-
-.about-content__text__description {
-    height: 60px;
-    overflow: hidden;
-}
-
-.about-content__text__description--open {
-    height: auto;
-}
-
-.about__section__content__image {
-    display: inline-block;
+    box-shadow: 0 0 10px 2px #aaa;
 }
 
 .about__section__content__signature {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 0 0 10px 10px;
+    margin-top: -4px;
+}
+
+.about__section__content__image {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
 }

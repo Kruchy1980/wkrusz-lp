@@ -1,22 +1,23 @@
 /* 1.Business */
 
-.offer-content__title__business {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__business {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__business {
     height: 60px;
@@ -30,23 +31,24 @@
 
 /* Calculation */
 
-.offer-content__title__calculation {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation {
     height: 60px;
@@ -60,23 +62,24 @@
 
 /* Calculation--mark */
 
-.offer-content__title__calculation__mark {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__mark {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__mark {
     height: 60px;
@@ -90,23 +93,24 @@
 
 /* Calculation--test */
 
-.offer-content__title__calculation__test {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__test {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__test {
     height: 60px;
@@ -120,23 +124,24 @@
 
 /* Investor-test */
 
-.offer-content__title__calculation__investor {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__investor {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__investor {
     height: 60px;
@@ -150,23 +155,24 @@
 
 /* Due-diligence */
 
-.offer-content__title__calculation__due-diligence {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__due-diligence {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__due-diligence {
     height: 60px;
@@ -180,23 +186,24 @@
 
 /* Transfer prices */
 
-.offer-content__title__calculation__transfers {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__transfers {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__transfers {
     height: 60px;
@@ -210,23 +217,24 @@
 
 /* Systems */
 
-.offer-content__title__calculation__systems {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__systems {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__systems {
     height: 60px;
@@ -240,23 +248,24 @@
 
 /* Benchmark Analysis*/
 
-.offer-content__title__calculation__benchmark {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__benchmark {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__benchmark {
     height: 60px;
@@ -270,23 +279,24 @@
 
 /* Interim Management*/
 
-.offer-content__title__calculation__management {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__management {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__management {
     height: 60px;
@@ -300,23 +310,24 @@
 
 /* Training*/
 
-.offer-content__title__calculation__training {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 20px 0;
-    color: #000;
-    opacity: 0.6;
-    text-transform: uppercase;
-    border: 1px solid #222;
-    max-width: 80vw;
-    padding: 3px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 1px 1px 5px 1px #111;
-    font-size: 1em;
-}
+
+/* .offer-content__title__calculation__training {
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+margin: 20px 0;
+color: #000;
+opacity: 0.6;
+text-transform: uppercase;
+border: 1px solid #222;
+max-width: 80vw;
+padding: 3px 10px;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: inset 1px 1px 5px 1px #111;
+font-size: 1em;
+} */
 
 .offer-content__text__calculation__training {
     height: 60px;
@@ -330,6 +341,11 @@
 
 /* Benchmark Analisys file */
 
+.benchmark__downloaded__link {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .offer-content__title__calculation__benchmark__link {
     margin: 20px 0;
     display: block;
@@ -341,4 +357,32 @@
 
 offer-content__title__calculation__benchmark__link--span {
     font-weight: 300;
+}
+
+.download__link--box {
+    margin: 0 auto;
+}
+
+
+/* Data title - special style */
+
+[data-title]:hover:after {
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #000;
+    color: #777;
+    font-size: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    background-image: -webkit-linear-gradient( top, #f8f8f8, #cccccc);
+    background-image: -moz-linear-gradient( top, #f8f8f8, #cccccc);
+    background-image: -ms-linear-gradient( top, #f8f8f8, #cccccc);
+    background-image: -o-linear-gradient( top, #f8f8f8, #cccccc);
+    padding: 4px 8px;
+    box-shadow: 0 0 10px 2px #ccc;
+    visibility: hidden;
 }

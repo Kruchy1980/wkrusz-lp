@@ -1,0 +1,7 @@
+/* Main modal box */
+
+.modal__main__box {
+    width: 100%;
+    height: 100%;
+    backgrond-color: #44444480;
+}
