@@ -1,6 +1,6 @@
 // Future modal window
 
-// window.onload = alert('Aby poprawnie wyświetlić zawartość tej strony użyj innej przeglądarki niż "Internet Explorer".');
+window.onload = alert('Aby poprawnie wyświetlić zawartość tej strony użyj innej przeglądarki niż "Internet Explorer".');
 
 
 
@@ -20,11 +20,11 @@ const modalInformation = () => {
     // document.body.appendChild(mainModalBox);
     modalDisplayElement.appendChild(mainModalBox);
     // Create smaller window in the main screen;
-    // contentModalBox.style.cssText = 'background-color: #ddd; transform transition'
+    contentModalBox.style.cssText = 'background-color: #ddd;';
 
 
 }
 
 
 // Tries
-window.onload = modalInformation();
+// window.onload = modalInformation();
