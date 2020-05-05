@@ -1,5 +1,3 @@
-/* Modal box styles */
-
 .modal__box--background {
     position: fixed;
     width: 100%;
@@ -53,5 +51,4 @@
     background-color: #ff0000;
     color: #fff;
     cursor: pointer;
-    /* display: none; */
 }
