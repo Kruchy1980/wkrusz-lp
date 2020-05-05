@@ -1,41 +1,3 @@
-// // HIstory
-// (() => {
-//     const rollerHistory = document.querySelector('.about-content__title__history');
-//     const sectionHeightHistory = document.querySelector('.about-content__text__history');
-//     const dotsHistory = document.querySelector('.multi-dot__history');
-
-//     const showHidden = () => {
-//         sectionHeightHistory.classList.toggle('about-content__text__history--open');
-//         if (dotsHistory.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
-//             dotsHistory.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
-//         } else {
-//             dotsHistory.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
-//         }
-//         if (sectionHeightHistory.classList.contains('active')) {
-//             sectionHeightHistory.classList.toggle('active');
-//             sectionHeightHistory.classList.toggle('about-content__text__history--open');
-//         }
-//     }
-//     rollerHistory.addEventListener('click', showHidden);
-// })();
-// // Description
-// (() => {
-//     const rollerDescription = document.querySelector('.about-content__title__description');
-//     const sectionHeightDescription = document.querySelector('.about-content__text__description');
-//     const dotsDescription = document.querySelector('.multi-dot__description');
-
-//     const showHidden = () => {
-//         sectionHeightDescription.classList.toggle('about-content__text__description--open');
-//         if (dotsDescription.innerHTML === '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">') {
-//             dotsDescription.innerHTML = `<img class="content__title__arrow-icon" src="./images/arrow-icon/2.arrow-up.png" alt="Arrow Up">`
-//         } else {
-//             dotsDescription.innerHTML = '<img class="content__title__arrow-icon" src="./images/arrow-icon/1.arrow-down.png" alt="Arrow Down">'
-//         }
-//     }
-//     rollerDescription.addEventListener('click', showHidden);
-// })();
-// OFFER
-// 1.  Biznes Plan, wniosek kredytowy, analiza opłacalności investycji
 (() => {
     const rollerBusiness = document.querySelector('.offer-content__title__business');
     const sectionHeightBusiness = document.querySelector('.offer-content__text__business');
@@ -51,7 +13,6 @@
     }
     rollerBusiness.addEventListener('click', showHidden);
 })();
-// 2. Calculation
 (() => {
     const rollerCalculation = document.querySelector('.offer-content__title__calculation');
     const sectionHeightCalculation = document.querySelector('.offer-content__text__calculation');
@@ -67,7 +28,6 @@
     }
     rollerCalculation.addEventListener('click', showHidden);
 })();
-// 3. Calculation test
 (() => {
     const rollerCalculationMark = document.querySelector('.offer-content__title__calculation__mark');
     const sectionHeightCalculationMark = document.querySelector('.offer-content__text__calculation__mark');
@@ -83,7 +43,6 @@
     }
     rollerCalculationMark.addEventListener('click', showHidden);
 })();
-// 4. Calculation test
 (() => {
     const rollerCalculationTest = document.querySelector('.offer-content__title__calculation__test');
     const sectionHeightCalculationTest = document.querySelector('.offer-content__text__calculation__test');
@@ -99,7 +58,7 @@
     }
     rollerCalculationTest.addEventListener('click', showHidden);
 })();
-// 5. Calculation test
+
 (() => {
     const rollerCalculationInvestor = document.querySelector('.offer-content__title__calculation__investor');
     const sectionHeightCalculationInvestor = document.querySelector('.offer-content__text__calculation__investor');
@@ -115,7 +74,7 @@
     }
     rollerCalculationInvestor.addEventListener('click', showHidden);
 })();
-// 6. Due-diligence
+
 (() => {
     const rollerCalculationDueDiligence = document.querySelector('.offer-content__title__calculation__due-diligence');
     const sectionHeightCalculationDueDiligence = document.querySelector('.offer-content__text__calculation__due-diligence');
@@ -131,7 +90,7 @@
     }
     rollerCalculationDueDiligence.addEventListener('click', showHidden);
 })();
-// 7. Transfers
+
 (() => {
     const rollerCalculationTransfers = document.querySelector('.offer-content__title__calculation__transfers');
     const sectionHeightCalculationTransfers = document.querySelector('.offer-content__text__calculation__transfers');
@@ -147,7 +106,7 @@
     }
     rollerCalculationTransfers.addEventListener('click', showHidden);
 })();
-// 8. Systems
+
 (() => {
     const rollerCalculationSystems = document.querySelector('.offer-content__title__calculation__systems');
     const sectionHeightCalculationSystems = document.querySelector('.offer-content__text__calculation__systems');
@@ -163,7 +122,7 @@
     }
     rollerCalculationSystems.addEventListener('click', showHidden);
 })();
-// 9. Benchmark
+
 (() => {
     const rollerCalculationBenchmark = document.querySelector('.offer-content__title__calculation__benchmark');
     const sectionHeightCalculationBenchmark = document.querySelector('.offer-content__text__calculation__benchmark');
@@ -179,7 +138,7 @@
     }
     rollerCalculationBenchmark.addEventListener('click', showHidden);
 })();
-// 10. Interim Management
+
 (() => {
     const rollerCalculationManagement = document.querySelector('.offer-content__title__calculation__management');
     const sectionHeightCalculationManagement = document.querySelector('.offer-content__text__calculation__management');
@@ -195,7 +154,7 @@
     }
     rollerCalculationManagement.addEventListener('click', showHidden);
 })();
-// 11. Training
+
 (() => {
     const rollerCalculationTraining = document.querySelector('.offer-content__title__calculation__training');
     const sectionHeightCalculationTraining = document.querySelector('.offer-content__text__calculation__training');
@@ -212,8 +171,7 @@
     rollerCalculationTraining.addEventListener('click', showHidden);
 })();
 
-// EXPERIENCE
-// 1. Education
+
 (() => {
     const rollerEducation = document.querySelector('.experience-content__title__education');
     const sectionHeightEducation = document.querySelector('.experience-content__text__education');
@@ -229,7 +187,7 @@
     }
     rollerEducation.addEventListener('click', showHidden);
 })();
-// 2. Courses
+
 (() => {
     const rollerCourses = document.querySelector('.experience-content__title__courses');
     const sectionHeightCourses = document.querySelector('.experience-content__text__courses');
@@ -245,7 +203,7 @@
     }
     rollerCourses.addEventListener('click', showHidden);
 })();
-// 3. Work - Experience
+
 (() => {
     const rollerWorkExperience = document.querySelector('.experience-content__title__work-experience');
     const sectionHeightWorkExperience = document.querySelector('.experience-content__text__work-experience');
@@ -261,7 +219,7 @@
     }
     rollerWorkExperience.addEventListener('click', showHidden);
 })();
-// 3. Clients - Experience
+
 (() => {
     const rollerClients = document.querySelector('.experience-content__title__clients');
     const sectionHeightClients = document.querySelector('.experience-content__text__clients');
@@ -277,7 +235,7 @@
     }
     rollerClients.addEventListener('click', showHidden);
 })();
-// Menu on button
+
 (() => {
     const button = document.querySelector('.js-main-navigation__inner__mobile-button');
     const navList = document.querySelector('.js-main-navigation__inner__nav-list');
