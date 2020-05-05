@@ -2,22 +2,55 @@
 
 .modal__box--background {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
-    backgrond-color: #44444480;
-    display: flex;
+    background-color: #44444480;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
+    display: flex;
+}
+
+.modal-inactive {
+    display: none;
 }
 
 .modal__box--main {
-    backgrond-color: #fff;
-    width: 75%;
-    height: 50%;
+    background-color: #eee;
+    width: 70%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
+    box-shadow: inset 0 0 10px 3px;
+}
+
+.modal__box--text {
+    margin-left: 20px;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+@media(min-width: 800px) {
+    .modal__box--text {
+        font-size: 24px;
+    }
+}
+
+.modal__box--close-button {
+    position: relative;
+    right: 20px;
+    top: -110px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
 }
