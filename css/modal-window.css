@@ -28,7 +28,7 @@
 }
 
 .modal__box--text {
-    margin-left: -25px;
+    /* margin-left: -25px; */
     justify-self: center;
     text-align: center;
     font-weight: bold;
@@ -44,7 +44,7 @@
 
 .modal__box--close-button {
     position: relative;
-    right: -20px;
+    right: 20px;
     top: -110px;
     padding: 5px;
     font-weight: bold;
