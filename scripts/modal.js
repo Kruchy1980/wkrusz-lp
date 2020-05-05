@@ -11,6 +11,7 @@ const modalInformation = () => {
     }
     const removeModal = () => {
             modalBox.classList.remove('modal__box--background');
+            closeButton.style.display = 'none';
         }
         // Button logic 
     closeButton.addEventListener('click', toggleModal);
